@@ -1,0 +1,996 @@
+[
+    {
+        "id": "vaka_001",
+        "gizli_tani": "Akut Pankreatit",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 48,
+            "meslek": "Ev Hanımı",
+            "sikayet": "Karnım çok kötü ağrıyor, sırtıma vuruyor sanki, midem de bulanıyor ve kusuyorum."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, şikayetlerinin dün akşam yağlı bir yemek yedikten yaklaşık 2-3 saat sonra başladığını belirtiyor. Karın üst kısmında (epigastrik bölgede) başlayan, şiddetli, sürekli, bıçak saplanır tarzda bir ağrı tarif ediyor. Ağrı sırtına doğru yayılım gösteriyor. Öne doğru eğilmekle bir miktar rahatladığını, yemek yemekle ve uzanmakla ağrının arttığını ifade ediyor. Ağrıya bulantı ve birkaç kez safralı kusma eşlik etmiş. Ayrıca son 12 saattir ateşinin çıktığını ve üşüme-titreme hissettiğini söylüyor. Daha önce benzer ancak daha hafif karın ağrıları yaşadığını, ancak bu kadar şiddetli olmadığını belirtiyor. Alkol kullanımı öyküsü yok.",
+            "kronik_hastaliklar": "Bilinen safra kesesi taşları (yaklaşık 3 yıldır takipte).",
+            "kullandigi_ilaclar": "Özellik yok.",
+            "aile_oykusu": "Özellik yok.",
+            "tibbi_ozgecmis": "5 yıl önce apandisit operasyonu dışında özellik yok."
+        },
+        "bulgular": {
+            "fizik_muayene": "Vital Bulgular: TA: 100/60 mmHg, Nabız: 110 atım/dk (ritmik), Ateş: 38.5°C, Solunum Sayısı: 22/dk, SpO2: %97 (oda havasında). Genel Durum: Orta derecede ajite, ağrılı yüz ifadesi mevcut. Batın: Epigastrik bölgede ve sol üst kadranda yaygın hassasiyet, defans ve rebound hassasiyet pozitif. Barsak sesleri azalmış. Cullen veya Grey-Turner bulgusu izlenmedi. Diğer sistem muayeneleri doğal.",
+            "laboratuvar": "Hemogram: WBC: 16.5 x 10^3/uL (N: 4-10), Hb: 13.2 g/dL (N: 12-16), Plt: 280 x 10^3/uL (N: 150-450). Biyokimya: Amilaz: 1250 U/L (N: 28-100), Lipaz: 2100 U/L (N: 13-60), CRP: 120 mg/L (N: <5), AST: 85 U/L (N: 0-35), ALT: 90 U/L (N: 0-45), Total Bilirubin: 2.8 mg/dL (N: 0.2-1.2), Direkt Bilirubin: 1.5 mg/dL (N: 0-0.3), GGT: 150 U/L (N: 0-50), ALP: 180 U/L (N: 40-150), Glukoz: 180 mg/dL (N: 70-100), Kalsiyum: 8.0 mg/dL (N: 8.5-10.2), Kreatinin: 1.1 mg/dL (N: 0.6-1.2), BUN: 25 mg/dL (N: 7-20), LDH: 300 U/L (N: 140-280).",
+            "goruntuleme": "Batın Ultrasonografisi: Safra kesesi içinde çok sayıda milimetrik boyutlu taşlar izlendi. Koledok çapı 8 mm olarak ölçüldü (hafif dilate). Pankreas ödemli ve hipoekoik görünümde, etrafında minimal serbest sıvı izlendi. Batın BT (Kontrastlı): Pankreas glandı diffüz olarak büyümüş, konturları silikleşmiş ve peripankreatik yağlı planlarda ödem ve stranding izlenmektedir. Pankreas etrafında minimal serbest sıvı mevcuttur. Nekroz düşündüren alanlar saptanmadı. Balthazar skoru D."
+        }
+    },
+    {
+        "id": "vaka_002",
+        "gizli_tani": "Diyabetik Ketoasidoz (DKA)",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 22,
+            "meslek": "Üniversite Öğrencisi",
+            "sikayet": "Çok susuyorum, sürekli tuvalete gidiyorum ve midem bulanıyor. Karnım da ağrıyor."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Yaklaşık 3 gündür aşırı susuzluk ve sık idrara çıkma şikayetleri var. Son 24 saattir bu şikayetlere bulantı, birkaç kez kusma ve karın ağrısı eklenmiş. Genel bir halsizlik ve yorgunluk hissediyor. İştahı azalmış, son zamanlarda kilo kaybı da olmuş. Son insülin dozlarını düzenli yapmadığını, bazen unuttuğunu veya dozunu azalttığını belirtiyor. Son günlerde hafif bir üst solunum yolu enfeksiyonu geçirdiğini de ekliyor.",
+            "kronik_hastaliklar": "Tip 1 Diyabet Mellitus (5 yıldır tanılı)",
+            "kullandigi_ilaclar": "İnsülin glarjin (Lantus) 18 ünite akşam, İnsülin aspart (Novorapid) yemeklerden önce 8-10 ünite (düzensiz kullanıyor)",
+            "aile_oykusu": "Anne tarafında diyabet öyküsü mevcut.",
+            "tibbi_ozgecmis": "5 yıl önce Tip 1 Diyabet tanısı ile hastanede yatış öyküsü var. Başka operasyon veya önemli yatış öyküsü yok."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum: Orta derecede letarjik, oryantasyon kooperasyon tam ancak yorgun görünüyor. Ağız mukozaları kuru, cilt turgoru azalmış. Aseton kokusu belirgin.\nVital bulgular: TA: 90/60 mmHg, Nabız: 115/dk (ritmik), Solunum: 28/dk (derin ve hızlı, Kussmaul solunumu), Ateş: 37.0 °C, SpO2: %98 (oda havasında).\nKardiyovasküler: S1, S2 doğal, ek ses, üfürüm yok.\nSolunum: Her iki akciğerde solunum sesleri doğal, ronküs, raller yok.\nGastrointestinal: Batın distandü değil, epigastrik bölgede hafif hassasiyet mevcut, rebound, defans yok. Barsak sesleri azalmış.\nNörolojik: Bilinç açık, pupiller izokorik, ışık refleksi bilateral mevcut. Motor ve duyu muayenesi doğal.",
+            "laboratuvar": "Kan Gazı (Arteriyel): pH: 7.18 (7.35-7.45), pCO2: 25 mmHg (35-45), HCO3: 8 mEq/L (22-28), Baz Açığı: -18 mEq/L (-2 to +2).\nBiyokimya:\n  Glukoz: 580 mg/dL (70-100)\n  Üre: 65 mg/dL (15-45)\n  Kreatinin: 1.8 mg/dL (0.6-1.2)\n  Na: 130 mEq/L (135-145)\n  K: 5.8 mEq/L (3.5-5.0)\n  Cl: 95 mEq/L (98-107)\n  Anyon Gap: 27 mEq/L (8-12)\n  Beta-hidroksibutirat: 6.2 mmol/L (<0.6)\n  Amilaz: 150 U/L (25-125)\n  Lipaz: 80 U/L (10-60)\nHemogram:\n  WBC: 14.5 x 10^3/uL (4.0-10.0)\n  Hb: 13.8 g/dL (12.0-16.0)\n  Hct: 42% (36-48)\n  Plt: 280 x 10^3/uL (150-450)\nİdrar Analizi:\n  Dansite: 1.030 (1.005-1.030)\n  pH: 5.0 (4.5-8.0)\n  Glukoz: ++++\n  Keton: ++++\n  Lökosit Esteraz: Negatif\n  Nitrit: Negatif",
+            "goruntuleme": "Akciğer Grafisi (PA): Kardiyotorasik oran normal, bilateral akciğer parankimi ve plevralar doğal. İnfiltrasyon veya efüzyon izlenmedi.\nBatın Ultrasonografisi: Karaciğer, safra kesesi, pankreas, dalak ve böbrekler normal sınırlarda. Serbest sıvı izlenmedi."
+        }
+    },
+    {
+        "id": "vaka_003",
+        "gizli_tani": "Toplum Kökenli Pnömoni",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 58,
+            "meslek": "Emekli Öğretmen",
+            "sikayet": "Üç gündür öksürüyorum, ateşleniyorum ve nefesim daralıyor doktor bey/hanım."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Üç gün önce başlayan kuru öksürük zamanla balgamlı hale gelmiş, balgam sarı-yeşil renkli. Ateşi 38.5-39°C civarında seyrediyor, titreme ve üşüme eşlik ediyor. Başlangıçta eforla olan nefes darlığı son 12 saattir istirahatte de belirginleşmiş. Sağ göğüs tarafında derin nefes almakla artan batıcı tarzda ağrısı var. Halsizlik, iştahsızlık mevcut.",
+            "kronik_hastaliklar": "Tip 2 Diyabetes Mellitus, Hipertansiyon",
+            "kullandigi_ilaclar": "Metformin 1000 mg 2x1, Ramipril 5 mg 1x1",
+            "aile_oykusu": "Anne ve babada hipertansiyon.",
+            "tibbi_ozgecmis": "5 yıl önce apendektomi operasyonu geçirdi."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum: Orta derecede dispneik, bilinci açık, oryante, koopere. Vital Bulgular: Ateş: 38.8°C, Nabız: 105 atım/dk, Kan Basıncı: 100/60 mmHg, Solunum Sayısı: 28/dk, SpO2: %90 (oda havasında). KBB: Farenks hiperemik değil. Kardiyovasküler: S1, S2 doğal, ritmik, ek ses/üfürüm yok. Solunum Sistemi: Sağ hemitoraks solunuma katılım azalmış. Sağ alt lobda perküsyon matitesi, inspiratuar raller ve bronşiyal sesler mevcut. Solunum sesleri solda doğal. Batın: Normal. Ekstremiteler: Ödem yok.",
+            "laboratuvar": "Hemogram: WBC: 18.5 x 10^3/uL, Nötrofil: %85, Lenfosit: %10, Hb: 12.8 g/dL, Plt: 280 x 10^3/uL. Biyokimya: CRP: 150 mg/L, Sedimantasyon: 75 mm/saat, Glukoz: 180 mg/dL, Kreatinin: 1.1 mg/dL, BUN: 25 mg/dL, Prokalsitonin: 1.5 ng/mL. Arter Kan Gazı (oda havasında): pH: 7.35, PaCO2: 38 mmHg, PaO2: 60 mmHg, HCO3: 22 mEq/L, SaO2: %90.",
+            "goruntuleme": "Akciğer Grafisi (PA ve Lateral): Sağ alt lobda homojen konsolidasyon alanı ve hava bronkogramları izlenmektedir. Plevral efüzyon veya pnömotoraks saptanmadı."
+        }
+    },
+    {
+        "id": "vaka_004",
+        "gizli_tani": "Akut Piyelonefrit",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 34,
+            "meslek": "Öğretmen",
+            "sikayet": "Sırtım çok ağrıyor, ateşim var ve titriyorum. İdrar yaparken de yanma oluyor."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta 2 gündür devam eden sağ yan ağrısı, yüksek ateş (39°C'ye kadar), titreme ve üşüme şikayetleriyle başvuruyor. Ağrı künt vasıfta olup sağ böğürden sırta doğru yayılım gösteriyor. İdrar yaparken yanma, sık idrara çıkma ve idrarını tam boşaltamama hissi de eşlik ediyor. Bulantı ve hafif kusma da mevcut. Son 6 ay içinde 2 kez idrar yolu enfeksiyonu geçirme öyküsü var.",
+            "kronik_hastaliklar": "Özellik yok",
+            "kullandigi_ilaclar": "Ateş için parasetamol kullanmış ancak fayda görmemiş.",
+            "aile_oykusu": "Özellik yok",
+            "tibbi_ozgecmis": "Son 6 ay içinde 2 kez alt idrar yolu enfeksiyonu geçirmiş, antibiyotik tedavisi ile düzelmiş."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durumu orta, bilinci açık, oryante ve koopere. Ateş: 38.9°C, Nabız: 105 atım/dk, Kan Basıncı: 100/60 mmHg, Solunum Sayısı: 20/dk, SpO2: %98 (oda havasında).\nBaş-boyun: Doğal.\nKardiyovasküler: S1, S2 doğal, ek ses ve üfürüm yok.\nSolunum: Her iki akciğer solunuma eşit katılıyor, ronküs, raller yok.\nBatın: Sağ üst kadranda ve sağ böğürde palpasyonla hassasiyet mevcut. Sağ kostovertebral açı (CVA) perküsyon hassasiyeti (Murphy yumruk testi) pozitif. Defans, rebound yok. Barsak sesleri doğal.\nEkstremiteler: Ödem yok.",
+            "laboratuvar": {
+                "Hemogram": {
+                    "WBC": "18.5 x 10^3/uL (N: 4.0-10.0)",
+                    "Hb": "12.8 g/dL (N: 12.0-16.0)",
+                    "Plt": "320 x 10^3/uL (N: 150-450)",
+                    "Nötrofil": "%85 (N: 40-70)"
+                },
+                "Biyokimya": {
+                    "CRP": "125 mg/L (N: <5)",
+                    "Sedimantasyon": "60 mm/saat (N: <20)",
+                    "Kreatinin": "0.8 mg/dL (N: 0.6-1.2)",
+                    "BUN": "15 mg/dL (N: 7-20)"
+                },
+                "İdrar Analizi": {
+                    "Renk": "Bulanık",
+                    "Dansite": "1.020",
+                    "pH": "6.5",
+                    "Lökosit Esteraz": "Pozitif (+++)",
+                    "Nitrit": "Pozitif",
+                    "Protein": "(+)",
+                    "Eritrosit": "5-10 /hpf (N: <5)",
+                    "Lökosit": ">50 /hpf (N: <5)",
+                    "Bakteri": "Çok sayıda"
+                },
+                "İdrar Kültürü": "Henüz sonuçlanmadı (Bekleniyor)."
+            },
+            "goruntuleme": "Batın Ultrasonografisi: Sağ böbrek boyutları hafif artmış (12.5 cm), parankim ekosu hafif artmıştır. Toplayıcı sistemde dilatasyon veya hidronefroz saptanmadı. Sol böbrek ve mesane doğal görünümdedir. Taş veya kitle lezyonu izlenmedi."
+        }
+    },
+    {
+        "id": "vaka_005",
+        "gizli_tani": "Demir Eksikliği Anemisi",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 32,
+            "meslek": "Büro çalışanı",
+            "sikayet": "Çok yorgun hissediyorum, nefesim daralıyor."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, son 6 aydır giderek artan bir yorgunluk hissi olduğunu, sabahları yataktan kalkmakta zorlandığını ve gün içinde sürekli uyku hali yaşadığını belirtiyor. Merdiven çıkarken veya hafif eforla bile nefes nefese kaldığını ifade ediyor. Bazen çarpıntıları olduğunu, saçlarının çok döküldüğünü ve tırnaklarının kolay kırıldığını ekliyor. Son zamanlarda buz yeme isteğinin arttığını fark etmiş. Adet kanamalarının son aylarda daha yoğun ve uzun sürdüğünü belirtiyor.",
+            "kronik_hastaliklar": "Özellik yok",
+            "kullandigi_ilaclar": "Düzenli kullandığı bir ilaç yok.",
+            "aile_oykusu": "Önemli bir aile öyküsü yok.",
+            "tibbi_ozgecmis": "Geçirilmiş önemli bir operasyon veya hastane yatışı yok."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum orta, soluk görünümde. Bilinç açık, oryante, koopere. Vital Bulgular: Kan Basıncı: 110/70 mmHg, Nabız: 98/dk (ritmik), Solunum Sayısı: 18/dk, Ateş: 36.7°C. Konjonktivalar soluk. Tırnaklarda kolay kırılma ve hafif koilonişi (kaşık tırnak) mevcut. Saçlarda diffüz dökülme gözlendi. Oral mukozada atrofik glossit bulgusu yok. Kalp sesleri ritmik, taşikardik, patolojik üfürüm duyulmadı. Akciğer sesleri bilateral doğal, ronküs-ral yok. Batın rahat, defans-rebound yok, organomegali saptanmadı. Ekstremitelerde ödem yok.",
+            "laboratuvar": "Hemogram: Hb: 8.5 g/dL (Normal: 12-16 g/dL), Hct: 28% (Normal: 36-48%), MCV: 68 fL (Normal: 80-100 fL), MCH: 22 pg (Normal: 27-33 pg), RDW: 18% (Normal: 11.5-14.5%), WBC: 7.2 x 10^3/µL (Normal: 4.0-10.0 x 10^3/µL), Platelet: 280 x 10^3/µL (Normal: 150-450 x 10^3/µL).\nDemir Paneli: Serum Demir: 30 µg/dL (Normal: 60-170 µg/dL), TIBC: 450 µg/dL (Normal: 250-400 µg/dL), Transferrin Saturasyonu: 7% (Normal: 20-50%), Ferritin: 8 ng/mL (Normal: 10-120 ng/mL).",
+            "goruntuleme": "Görüntüleme yapılmadı, klinik olarak endikasyon görülmedi."
+        }
+    },
+    {
+        "id": "vaka_006",
+        "gizli_tani": "Pulmoner Emboli",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 58,
+            "meslek": "Emekli Öğretmen",
+            "sikayet": "Nefesim daralıyor, göğsüm ağrıyor, sanki kalbim sıkışıyor."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Yaklaşık 2 saat önce aniden başlayan, derin nefes almakla artan sağ göğüs ağrısı ve nefes darlığı. Ağrı sırta yayılmıyor, kolda uyuşma yok. Çarpıntı hissi de var. Son 3 gündür uzun süreli otobüs yolculuğu (10 saat) sonrası sağ bacağımda hafif bir şişlik ve ağrı fark ettim ama önemsemedim.",
+            "kronik_hastaliklar": "Kontrollü hipertansiyon.",
+            "kullandigi_ilaclar": "Ramipril 5 mg/gün.",
+            "aile_oykusu": "Özellik yok.",
+            "tibbi_ozgecmis": "10 yıl önce apandisit ameliyatı dışında özellik yok."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel Durum: Orta derecede dispneik, anksiyeteli, soluk görünüyor.\nVital Bulgular: TA: 110/70 mmHg, Nabız: 118 atım/dk (ritmik), Solunum Sayısı: 28/dk, Ateş: 36.8°C, SpO2: %88 (oda havasında).\nKardiyovasküler: S1, S2 doğal, taşikardik. Üfürüm yok. Juguler venöz dolgunluk yok.\nSolunum Sistemi: Her iki hemitoraks solunuma eşit katılıyor. Oskültasyonda bilateral solunum sesleri doğal, ronküs, raller, hışıltı yok.\nBatın: Normal.\nEkstremiteler: Sağ alt ekstremitede baldırda hafif ödem, palpasyonla hassasiyet mevcut. Homan belirtisi pozitif. Sol alt ekstremite doğal.",
+            "laboratuvar": "Hemogram: Hb: 13.2 g/dL, Hct: %39.5, WBC: 11.5 x 10^3/uL, Plt: 280 x 10^3/uL.\nBiyokimya: Glukoz: 98 mg/dL, BUN: 18 mg/dL, Kreatinin: 0.8 mg/dL, Na: 140 mEq/L, K: 4.2 mEq/L.\nKardiyak Enzimler: Troponin I: 0.03 ng/mL (Normal <0.04), CK-MB: 12 U/L (Normal <25).\nD-dimer: 2800 ng/mL (Normal <500 ng/mL).\nArter Kan Gazı (oda havasında): pH: 7.48, pCO2: 30 mmHg, pO2: 55 mmHg, HCO3: 24 mEq/L, SaO2: %88.",
+            "goruntuleme": "Akciğer Grafisi (PA): Kardiyotorasik oran normal. Akciğer parankim alanlarında aktif infiltrasyon veya konsolidasyon izlenmedi. Plevral effüzyon yok.\nToraks BT Anjiyografi: Sağ ana pulmoner arter bifurkasyonunda ve segmental dallarında lümeni kısmen veya tamamen dolduran trombüsler izlenmektedir. Sol pulmoner arter dalları açıktır. Sağ ventrikül dilatasyonu mevcuttur.\nAlt Ekstremite Venöz Doppler USG (Sağ): Sağ popliteal ve femoral venlerde lümeni tamamen dolduran, komprese edilemeyen trombüsler izlenmektedir."
+        }
+    },
+    {
+        "id": "vaka_007",
+        "gizli_tani": "Hipertansif Acil",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 68,
+            "meslek": "Emekli Ev Hanımı",
+            "sikayet": "Başım çatlayacak gibi ağrıyor, gözlerim de bulanık görüyor, sanki beynim zonkluyor."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Yaklaşık 4 saattir devam eden, enseden başlayıp tüm başa yayılan, zonklayıcı tarzda şiddetli baş ağrısı. Ağrı kesicilere yanıt vermemiş. Aynı zamanda son 2 saattir görmede bulanıklık, ışığa hassasiyet ve ara sıra mide bulantısı şikayeti var. Nefes darlığı veya göğüs ağrısı tariflemiyor.",
+            "kronik_hastaliklar": "15 yıldır Hipertansiyon (düzensiz ilaç kullanımı), 8 yıldır Tip 2 Diyabetes Mellitus (oral antidiyabetik kullanıyor), 5 yıldır Dislipidemi.",
+            "kullandigi_ilaclar": "Amlodipin 5 mg/gün (son 3 gündür almamış), Metformin 1000 mg 2x1/gün, Atorvastatin 20 mg/gün.",
+            "aile_oykusu": "Anne ve babada hipertansiyon ve diyabet öyküsü mevcut.",
+            "tibbi_ozgecmis": "Daha önce önemli bir operasyon veya hastane yatışı yok. Sigara ve alkol kullanmıyor."
+        },
+        "bulgular": {
+            "fizik_muayene": "Vital Bulgular: TA: 220/130 mmHg (sağ kol, oturur pozisyon), Nabız: 105/dk (düzenli), Solunum: 22/dk, Ateş: 36.7°C, SpO2: %96 (oda havasında).\nGenel Durum: Bilinci açık, oryante, koopere ancak huzursuz ve ağrılı yüz ifadesi var.\nKardiyovasküler: S1, S2 doğal. S3 duyuluyor. Üfürüm yok. Periferik nabızlar bilateral alınıyor.\nPulmoner: Her iki akciğer solunum sesleri doğal, ronküs/ral yok.\nGöz: Fundoskopide bilateral papil ödemi, retinal hemorajiler ve eksüdalar mevcut.\nNörolojik: Kranial sinirler intakt. Motor ve duyu muayeneleri doğal. Babinski refleksi bilateral negatif.",
+            "laboratuvar": "Hemogram: Hb: 13.2 g/dL, Hct: %39.5, WBC: 8.5 x 10^3/uL, Plt: 280 x 10^3/uL.\nBiyokimya: Glukoz: 285 mg/dL, BUN: 45 mg/dL, Kreatinin: 2.1 mg/dL, Na: 138 mEq/L, K: 4.0 mEq/L, AST: 30 U/L, ALT: 25 U/L, Troponin I: 0.03 ng/mL, CK-MB: 15 U/L, CRP: 5 mg/L.\nİdrar Analizi: Dansite: 1.025, pH: 6.0, Protein: +++, Eritrosit: 10-15/HPF, Lökosit: 2-3/HPF.\nEKG: Sinüs taşikardisi, sol ventrikül hipertrofisi bulguları (Sokolow-Lyon kriterleri pozitif).",
+            "goruntuleme": "Akciğer Grafisi (PA): Kardiyomegali (KTİ > %50), pulmoner vasküler konjesyon bulguları. İnterstisyel ödem lehine hafif çizgilenmeler.\nKranial BT: Akut intrakraniyal kanama veya iskemik lezyon saptanmadı. Beyin ödemi veya kitle etkisi izlenmedi."
+        }
+    },
+    {
+        "id": "vaka_008",
+        "gizli_tani": "Kronik Obstrüktif Akciğer Hastalığı (KOAH) Alevlenmesi",
+        "hasta_kimlik": {
+            "ad_soyad": "Ahmet Yılmaz",
+            "yas": 68,
+            "meslek": "Emekli İşçi",
+            "sikayet": "Doktor bey, nefesim çok daralıyor, öksürüğüm de iyice arttı, balgamım da sarı gelmeye başladı."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, 3 gündür giderek artan nefes darlığı, balgamlı öksürük ve göğsünde sıkışma şikayetleri ile başvuruyor. Balgam renginin sarı-yeşil arası olduğunu belirtiyor. Ateşinin çıktığını hissettiğini ancak ölçmediğini söylüyor. Özellikle gece uykusunu bölen öksürük nöbetleri oluyor. Yürürken bile nefesi kesiliyor, eskiden bu kadar değildi. Sigara öyküsü: 40 yıldır günde 1 paket sigara içmiş, 5 yıl önce bırakmış.",
+            "kronik_hastaliklar": "Kronik Obstrüktif Akciğer Hastalığı (KOAH) (Tanı 10 yıl önce), Hipertansiyon",
+            "kullandigi_ilaclar": "Tiotropium/Olodaterol inhaler (günde 1 kez), Salbutamol inhaler (gerektiğinde), Valsartan 80 mg (günde 1 kez)",
+            "aile_oykusu": "Anne ve babası yaşlılıkta vefat etmiş. Ailede bilinen önemli bir kronik hastalık öyküsü yok.",
+            "tibbi_ozgecmis": "5 yıl önce KOAH alevlenmesi nedeniyle 1 hafta hastanede yatış öyküsü var. Apandisit operasyonu (çocuklukta)."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel Durum: Bilinci açık, oryante, dispneik görünümde, takipneik. Yardımcı solunum kaslarını kullanıyor.\nVital Bulgular: Ateş: 37.8 °C, Nabız: 105 atım/dk, Kan Basıncı: 145/90 mmHg, Solunum Sayısı: 28 soluk/dk, SpO2: %88 (oda havasında).\nKardiyovasküler: S1, S2 doğal, ritmik, taşikardik. Üfürüm yok.\nSolunum Sistemi: İnspeksiyonda fıçı göğüs deformitesi mevcut. Palpasyonda taktil fremitus bilateral azalmış. Perküsyon bilateral hipersonor. Oskültasyonda solunum sesleri bilateral azalmış, yaygın ekspiratuvar ronküsler ve bilateral wheezing duyuluyor. Ekspiryum uzamış.\nDiğer Sistemler: Batın rahat, defans-rebound yok. Ekstremitelerde ödem yok.",
+            "laboratuvar": "Hemogram:\n  WBC: 14.5 x 10^3/uL (Normal: 4.0-10.0)\n  Nötrofil: %80 (Normal: 40-75)\n  Lenfosit: %15 (Normal: 20-45)\n  Hb: 14.2 g/dL (Normal: 13.5-17.5)\n  Hct: %43 (Normal: 40-52)\n  PLT: 280 x 10^3/uL (Normal: 150-450)\nBiyokimya:\n  CRP: 45 mg/L (Normal: <5)\n  Glukoz: 110 mg/dL (Normal: 70-100)\n  Kreatinin: 0.9 mg/dL (Normal: 0.6-1.2)\n  Na: 138 mEq/L (Normal: 135-145)\n  K: 4.1 mEq/L (Normal: 3.5-5.0)\nArter Kan Gazı (Oda Havasında):\n  pH: 7.32 (Normal: 7.35-7.45)\n  PaCO2: 62 mmHg (Normal: 35-45)\n  PaO2: 55 mmHg (Normal: 80-100)\n  HCO3: 30 mEq/L (Normal: 22-26)\n  SaO2: %88 (Normal: 95-100)",
+            "goruntuleme": "Akciğer Grafisi (PA ve Lateral): Her iki hemitoraksta hiperinflasyon bulguları (diyaframlarda düzleşme, interkostal aralıklarda genişleme). Kardiyotorasik oran normal sınırlarda. Akut infiltrasyon veya plevral efüzyon lehine belirgin bulgu saptanmadı. Bronkovasküler belirginlik artışı izlenmektedir."
+        }
+    },
+    {
+        "id": "vaka_009",
+        "gizli_tani": "Tansiyonel Pnömotoraks",
+        "hasta_kimlik": {
+            "ad_soyad": "Can Yılmaz",
+            "yas": 35,
+            "meslek": "İnşaat İşçisi",
+            "sikayet": "Nefes alamıyorum, göğsüm çok ağrıyor ve başım dönüyor!"
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Yaklaşık 1 saat önce inşaatta 2 metrelik bir yükseklikten düşme sonucu sağ göğsünün üzerine sert bir cisimle çarpmış. Çarpmanın hemen ardından başlayan sağ göğüs ağrısı keskin vasıfta ve derin nefes almakla artıyor. Ağrı sırtına veya omzuna yayılmıyor. Nefes darlığı düşme sonrası hızla kötüleşmiş. Konuşmakta zorlanıyor. Baş dönmesi ve genel halsizlik hissi var.",
+            "kronik_hastaliklar": "Özellik yok",
+            "kullandigi_ilaclar": "Yok",
+            "aile_oykusu": "Özellik yok",
+            "tibbi_ozgecmis": "Özellik yok"
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel Durum: Bilinci açık ancak ajite ve anksiyetik. Siyanoz mevcut. Terli.\nVital Bulgular: TA: 80/50 mmHg, Nabız: 130 atım/dk, SS: 38 nefes/dk, SpO2: %82 (oda havasında), Ateş: 36.7 °C.\nSolunum Sistemi: Sağ hemitoraks solunuma katılmıyor, interkostal aralıklar genişlemiş. Sağ hemitoraksta perküsyonla hipersonorite. Sağ akciğerde solunum sesleri alınamıyor. Trakea sola deviasyonda. Juguler venöz dolgunluk (JVD) belirgin.\nKardiyovasküler Sistem: Kalp sesleri derinden geliyor (muffled). S1, S2 duyuluyor. Ek ses veya üfürüm yok. Periferik nabızlar zayıf.",
+            "laboratuvar": "Arter Kan Gazı (oda havasında):\n  pH: 7.28 (Normal: 7.35-7.45)\n  PaCO2: 55 mmHg (Normal: 35-45 mmHg)\n  PaO2: 50 mmHg (Normal: 80-100 mmHg)\n  HCO3: 24 mEq/L (Normal: 22-26 mEq/L)\n  SaO2: %82\nHemogram:\n  WBC: 12.5 x 10^9/L (Normal: 4.5-11.0)\n  Hb: 14.2 g/dL (Normal: 13.5-17.5)\n  Plt: 280 x 10^9/L (Normal: 150-450)",
+            "goruntuleme": "Akciğer Grafisi (PA): Sağ hemitoraksta total akciğer kollapsı izlenmektedir. Mediasten ve trakea sola doğru belirgin derecede itilmiştir. Sağ hemidiyaframda düzleşme mevcuttur. Sağ plevral boşlukta hava dansitesi artmıştır ve vasküler işaretler izlenmemektedir.\nToraks USG (FAST): Sağ hemitoraksta plevral kayma (lung sliding) izlenmemektedir. 'Lung point' saptanmamıştır."
+        }
+    },
+    {
+        "id": "vaka_010",
+        "gizli_tani": "Subaraknoid Kanama",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 48,
+            "meslek": "Muhasebeci",
+            "sikayet": "Hayatımda hiç böyle bir baş ağrısı yaşamadım doktor bey/hanım, sanki kafam patlayacak gibi oldu birden bire."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, yaklaşık 2 saat önce aniden başlayan, şiddetli, ensesine ve gözlerinin arkasına yayılan, zonklayıcı tarzda bir baş ağrısı şikayetiyle acil servise başvuruyor. Ağrı başlangıcında kısa süreli bir bilinç bulanıklığı yaşadığını, ardından bulantı ve bir kez kusma olduğunu belirtiyor. Işıktan rahatsızlık duyduğunu ve boynunun tutulduğunu ifade ediyor. Daha önce bu şiddette bir baş ağrısı yaşamadığını vurguluyor.",
+            "kronik_hastaliklar": "Hipertansiyon (yaklaşık 5 yıldır)",
+            "kullandigi_ilaclar": "Ramipril 5 mg/gün",
+            "aile_oykusu": "Anne tarafında serebrovasküler olay öyküsü mevcut (anneannesi felç geçirmiş).",
+            "tibbi_ozgecmis": "Özellik yok. Bilinen alerjisi yok."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum: Orta derecede ajite, oryantasyon tam, kooperasyon kısıtlı. Vital bulgular: Kan Basıncı: 170/100 mmHg, Nabız: 60 atım/dk, Solunum: 16/dk, Ateş: 37.8 °C. Nörolojik muayene: Bilinç açık, ancak hafif uykuya eğilimli. Pupiller izokorik, ışık refleksi bilateral mevcut. Kranial sinir muayeneleri doğal. Motor muayene: Her iki üst ve alt ekstremitede kas gücü 5/5. Duyu muayenesi doğal. Ense sertliği pozitif. Kernig ve Brudzinski belirtileri pozitif. Babinski refleksi bilateral negatif. Diğer sistem muayeneleri doğal.",
+            "laboratuvar": "Hemogram: Hb: 13.5 g/dL, Hct: 40%, WBC: 9.8 x 10^3/uL, Plt: 280 x 10^3/uL. Biyokimya: Glukoz: 115 mg/dL, BUN: 18 mg/dL, Kreatinin: 0.8 mg/dL, Na: 140 mEq/L, K: 4.1 mEq/L, CRP: 0.5 mg/dL.",
+            "goruntuleme": "Beyin Bilgisayarlı Tomografisi (Kontrastsız): Bazal sisternlerde, Sylvian fissürlerde ve serebral sulkuslarda yaygın hiperdens görünüm (kanama ile uyumlu). Ventriküler sistem normal genişlikte. Kitle etkisi veya orta hat kayması saptanmadı. BT Anjiyografi (BTA): Sağ posterior kommunikan arterde yaklaşık 4 mm boyutunda sakküler anevrizma izlenmektedir."
+        }
+    },
+    {
+        "id": "vaka_011",
+        "gizli_tani": "Akut Miyokard İnfarktüsü",
+        "hasta_kimlik": {
+            "ad_soyad": "Mehmet Yılmaz",
+            "yas": 62,
+            "meslek": "Emekli Memur",
+            "sikayet": "Göğsümde çok şiddetli bir ağrı var, sanki fil oturmuş gibi. Koluma da vuruyor."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Ağrı yaklaşık 2 saattir devam ediyor. Sol göğsümün ortasında başladı, sol koluma ve çeneme doğru yayılıyor. Bıçak saplanır gibi değil, daha çok bir baskı, sıkışma hissi şeklinde. Nefes darlığı, soğuk terleme ve mide bulantısı da eşlik ediyor. Hareket etmekle veya dinlenmekle değişmiyor, dilaltı hapı aldım ama fayda etmedi.",
+            "kronik_hastaliklar": "Hipertansiyon (10 yıldır), Tip 2 Diyabetes Mellitus (5 yıldır), Dislipidemi (8 yıldır).",
+            "kullandigi_ilaclar": "Ramipril 5 mg/gün, Metformin 1000 mg 2x1/gün, Atorvastatin 40 mg/gün, Aspirin 100 mg/gün.",
+            "aile_oykusu": "Babası 55 yaşında kalp krizinden vefat etmiş. Annesinde hipertansiyon var.",
+            "tibbi_ozgecmis": "5 yıl önce apandisit ameliyatı dışında önemli bir cerrahi öyküsü yok. Daha önce kalp rahatsızlığı nedeniyle hastaneye yatışı olmamış."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum: Orta derecede ajite, soluk, terli. Bilinç açık, oryante. Vital Bulgular: TA: 100/60 mmHg, Nabız: 110 atım/dk (düzenli), Solunum Sayısı: 22/dk, Ateş: 36.7°C, SpO2: %92 (oda havasında). Kardiyak: S1, S2 ritmik, taşikardik. S3 duyuldu. Üfürüm yok. Boyun venöz dolgunluğu yok. Pulmoner: Her iki akciğer bazallerinde ince raller mevcut. Solunum sesleri bilateral eşit. Batın: Normal, defans/rebound yok. Ekstremiteler: Ödem yok, periferik nabızlar bilateral palpabl.",
+            "laboratuvar": "Hemogram: Hb: 14.2 g/dL, Lökosit: 11.5 x 10^3/uL (Nötrofil hakimiyeti), Trombosit: 280 x 10^3/uL. Biyokimya: Glikoz: 210 mg/dL, Üre: 45 mg/dL, Kreatinin: 1.1 mg/dL, Na: 138 mEq/L, K: 4.8 mEq/L. Kardiyak Enzimler (İlk ölçüm): Troponin I: 5.2 ng/mL (Normal < 0.04 ng/mL), CK-MB: 80 U/L (Normal < 25 U/L), CK: 350 U/L (Normal < 190 U/L). EKG: V1-V4 derivasyonlarında ST elevasyonu (>2 mm), aVR'de ST depresyonu. Patolojik Q dalgası yok.",
+            "goruntuleme": "Akciğer Grafisi (PA): Kardiyomegali (KTİ > 0.5), bilateral hiler dolgunluk ve alt zonlarda vasküler belirginleşme (pulmoner konjesyon düşündürüyor). Plevral efüzyon yok. Ekokardiyografi (Acil): Sol ventrikül anterior ve anteroseptal duvarlarda hipokinezi/akinezi. Ejektion Fraksiyonu (EF) %40 olarak tahmin edildi. Mitral yetmezlik hafif."
+        }
+    },
+    {
+        "id": "vaka_012",
+        "gizli_tani": "Hipokalemi",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 68,
+            "meslek": "Emekli Ev Hanımı",
+            "sikayet": "Hocam, birkaç gündür kendimi çok yorgun hissediyorum, bacaklarımda hiç derman kalmadı, kalkmakta zorlanıyorum."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, şikayetlerinin yaklaşık 3-4 gündür devam ettiğini, özellikle bacaklarında başlayan ve giderek artan bir güçsüzlük hissi olduğunu belirtiyor. Merdiven çıkmakta ve sandalyeden kalkmakta zorlandığını ifade ediyor. Bazen kaslarında kramp girdiğini de ekliyor. İştahsızlık, bulantı veya kusma tariflemiyor. Son zamanlarda idrar miktarında bir artış fark ettiğini söylüyor. Dışkılama alışkanlığında değişiklik yok. Ateş, öksürük gibi eşlik eden başka bir şikayeti bulunmuyor.",
+            "kronik_hastaliklar": "Hipertansiyon (yaklaşık 10 yıldır)",
+            "kullandigi_ilaclar": "Ramipril 5 mg/gün, Hidroklorotiyazid 25 mg/gün (yaklaşık 6 aydır kullanıyor)",
+            "aile_oykusu": "Anne ve babada hipertansiyon öyküsü mevcut. Diğer özellik yok.",
+            "tibbi_ozgecmis": "Özellik yok. Daha önce ciddi bir operasyon veya hastane yatışı geçirmemiş."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum: Orta, yorgun görünüyor. Bilinç açık, oryante, koopere. Vital bulgular: TA: 105/65 mmHg, Nabız: 98 atım/dk (düzenli), Solunum: 16/dk, Ateş: 36.6 °C. Baş-Boyun: Normal. KVS: S1, S2 doğal, ek ses veya üfürüm yok. Akciğerler: Her iki hemitoraks solunuma eşit katılıyor, ronküs, raller yok. Batın: Normal bombelikte, hassasiyet, defans yok. Barsak sesleri azalmış. Ekstremiteler: Alt ekstremitelerde proksimal kas gücü 3/5, distal kas gücü 4/5. Derin tendon refleksleri (DTR) bilateral patella ve aşil refleksleri azalmış (1+). Ödem yok.",
+            "laboratuvar": {
+                "Hemogram": {
+                    "Hb": "13.2 g/dL",
+                    "Hct": "39.8 %",
+                    "WBC": "7.8 x10^3/uL",
+                    "PLT": "280 x10^3/uL"
+                },
+                "Biyokimya": {
+                    "Glukoz": "95 mg/dL",
+                    "BUN": "28 mg/dL",
+                    "Kreatinin": "1.1 mg/dL",
+                    "Na": "138 mEq/L",
+                    "K": "2.5 mEq/L",
+                    "Cl": "92 mEq/L",
+                    "HCO3": "32 mEq/L",
+                    "Mg": "1.7 mg/dL",
+                    "Ca": "9.0 mg/dL"
+                },
+                "Kan Gazı (Arteriyel)": {
+                    "pH": "7.48",
+                    "pCO2": "40 mmHg",
+                    "HCO3": "31 mEq/L"
+                },
+                "EKG": "Sinüs taşikardisi, T dalgalarında düzleşme, belirgin U dalgaları, PR aralığı normal, QRS süresi normal, QT uzamış."
+            },
+            "goruntuleme": "Akciğer Grafisi (PA): Kardiyotorasik oran normal, pulmoner vaskülarite doğal. Akut patoloji saptanmadı."
+        }
+    },
+    {
+        "id": "vaka_013",
+        "gizli_tani": "Akut Apandisit",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 22,
+            "meslek": "Üniversite Öğrencisi",
+            "sikayet": "Karnım ağrıyor, önce midem ağrıyordu, şimdi sağ alt tarafım çok kötü."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, yaklaşık 24 saat önce başlayan, başlangıçta göbek çevresi ve mide bölgesinde hissedilen künt bir ağrı şikayetiyle başvuruyor. Ağrının birkaç saat içinde sağ alt karın bölgesine kaydığını ve şiddetinin giderek arttığını belirtiyor. Ağrı sürekli ve keskin vasıfta olup, hareket etmekle, öksürmekle veya yürümekle artıyor. İştahsızlık, bulantı ve bir kez kusma tarifliyor. Ateşinin çıktığını hissediyor ancak ölçmemiş. İdrar yaparken yanma veya sık idrara çıkma şikayeti yok. Dışkılama alışkanlığında bir değişiklik olmamış.",
+            "kronik_hastaliklar": "Özellik yok",
+            "kullandigi_ilaclar": "Özellik yok",
+            "aile_oykusu": "Ailede bilinen önemli bir kronik hastalık öyküsü yok.",
+            "tibbi_ozgecmis": "Çocukluk çağı aşıları tam. Bilinen bir operasyon veya hastane yatışı öyküsü yok."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum orta, bilinci açık, koopere. Vital bulgular: Ateş: 38.2°C, Nabız: 105 atım/dk, Kan Basıncı: 110/70 mmHg, Solunum Sayısı: 18/dk. Batın muayenesinde sağ alt kadranda belirgin hassasiyet, defans ve rebound hassasiyet mevcut. Rovsing belirtisi pozitif. Psoas ve Obturator belirtileri pozitif. Barsak sesleri azalmış. Diğer sistem muayeneleri doğal.",
+            "laboratuvar": "Hemogram: Lökosit: 16.500/µL (%88 Nötrofil), Hemoglobin: 13.2 g/dL, Trombosit: 280.000/µL. Biyokimya: CRP: 78 mg/L (Normal <5 mg/L), Kreatinin: 0.7 mg/dL, BUN: 12 mg/dL. İdrar Tahlili: Dansite: 1.020, pH: 6.0, Protein: Negatif, Glukoz: Negatif, Lökosit: 0-2/HPF, Eritrosit: 0-1/HPF.",
+            "goruntuleme": "Batın Ultrasonografisi: Sağ alt kadranda, kör sonlanan, non-kompresibl, duvar kalınlığı artmış, lümeni dilate (çapı 9 mm) apendiks izlendi. Çevresinde minimal serbest sıvı ve yağ dokusunda ödem (stranding) mevcuttur. Apendiks içinde fekalit saptanmadı. Diğer batın organları doğal."
+        }
+    },
+    {
+        "id": "vaka_014",
+        "gizli_tani": "Akut Böbrek Hasarı",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 72,
+            "meslek": "Emekli Ev Hanımı",
+            "sikayet": "Doktor bey, son birkaç gündür kendimi çok halsiz hissediyorum, iştahım da yok. Bir de sanki eskisi kadar idrara çıkmıyorum."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, yaklaşık 3 gündür devam eden genel durum bozukluğu, bulantı, iştahsızlık ve idrar miktarında belirgin azalma şikayetleriyle başvuruyor. Son bir haftadır ishal ve kusma şikayetleri olduğunu, bu nedenle yeterince sıvı alamadığını belirtiyor. İdrar renginin koyulaştığını ve miktarının çok azaldığını fark etmiş. Bacaklarında hafif şişlikler de olduğunu söylüyor.",
+            "kronik_hastaliklar": "Hipertansiyon (10 yıldır), Tip 2 Diyabetes Mellitus (15 yıldır), Koroner Arter Hastalığı (5 yıldır, stent öyküsü var).",
+            "kullandigi_ilaclar": "Ramipril 5 mg/gün, Metformin 1000 mg/gün, Amlodipin 5 mg/gün, Atorvastatin 20 mg/gün, Aspirin 100 mg/gün.",
+            "aile_oykusu": "Anne ve babasında hipertansiyon ve diyabet öyküsü mevcut.",
+            "tibbi_ozgecmis": "5 yıl önce koroner anjiyografi ve stent uygulaması yapılmış. 2 yıl önce katarakt ameliyatı geçirmiş. Başka önemli bir operasyon veya hastane yatışı öyküsü yok."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum: Orta derecede düşkün, oryante, koopere. Vital Bulgular: TA: 90/60 mmHg, Nabız: 105 atım/dk (düzensiz), Ateş: 36.8 °C, Solunum Sayısı: 22/dk, SpO2: %96 (oda havasında). Cilt: Turgor ve tonus azalmış, mukozalar kuru. Kardiyovasküler: S1, S2 doğal, ek ses yok, üfürüm yok. Periferik nabızlar zayıf alınıyor. Solunum: Akciğer sesleri bilateral doğal, ronküs/ral yok. GİS: Batın rahat, defans/rebound yok, barsak sesleri azalmış. Ürogenital: Künt kostovertebral açı hassasiyeti yok. Ekstremiteler: Bilateral pretibial +1 gode bırakan ödem. Nörolojik: Bilinç açık, koopere, oryante.",
+            "laboratuvar": {
+                "Hemogram": {
+                    "Hb": "11.5 g/dL",
+                    "Hct": "%35",
+                    "WBC": "9.8 x 10^3/uL",
+                    "PLT": "250 x 10^3/uL"
+                },
+                "Biyokimya": {
+                    "Glukoz": "180 mg/dL",
+                    "BUN": "85 mg/dL",
+                    "Kreatinin": "4.2 mg/dL",
+                    "Na": "132 mEq/L",
+                    "K": "5.8 mEq/L",
+                    "Cl": "95 mEq/L",
+                    "HCO3": "18 mEq/L",
+                    "Ca": "8.0 mg/dL",
+                    "P": "5.0 mg/dL",
+                    "CRP": "15 mg/L"
+                },
+                "İdrar_Analizi": {
+                    "Dansite": "1.025",
+                    "pH": "5.5",
+                    "Protein": "+2",
+                    "Kan": "Eser",
+                    "Lökosit": "5-8 /HPF",
+                    "Eritrosit": "3-5 /HPF",
+                    "Silendir": "Granüler silendirler görüldü.",
+                    "İdrar_Na": "15 mEq/L",
+                    "İdrar_Kreatinin": "60 mg/dL",
+                    "FE_Na": "%0.5"
+                }
+            },
+            "goruntuleme": "Böbrek USG: Bilateral böbrek boyutları normal sınırlarda (Sağ: 10.5 cm, Sol: 10.2 cm). Parankim kalınlığı ve ekojenitesi hafif artmıştır. Toplayıcı sistemlerde dilatasyon (hidronefroz) izlenmemiştir. Böbrek arter ve ven Doppler akımları normal sınırlardadır. Mesane boş ve duvar kalınlığı normaldir."
+        }
+    },
+    {
+        "id": "vaka_015",
+        "gizli_tani": "Kafa Travması",
+        "hasta_kimlik": {
+            "ad_soyad": "Can Yılmaz",
+            "yas": 32,
+            "meslek": "İnşaat Mühendisi",
+            "sikayet": "Şantiyede kafamı vurdum, başım çok ağrıyor, midem bulanıyor."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, yaklaşık 2 saat önce şantiyede ıslak zeminde kayarak düştüğünü ve başının arka kısmını (oksipital bölge) beton bir kirişe çarptığını ifade ediyor. Çarpma sonrası kısa süreli (yaklaşık 1-2 dakika, iş arkadaşları tarafından teyit edildi) bilinç kaybı yaşadığını belirtiyor. Bilinci açıldıktan sonra şiddetli baş ağrısı (VAS: 8/10), bulantı ve hastaneye gelirken bir kez kusma şikayeti olmuş. Olayın detaylarını hatırlamakta güçlük çekiyor, hafif bir konfüzyon ve sersemlik hali mevcut. Görme bozukluğu, çift görme veya kol/bacaklarda güçsüzlük tariflemiyor.",
+            "kronik_hastaliklar": "Hipertansiyon (düzenli ilaç kullanıyor, kontrol altında)",
+            "kullandigi_ilaclar": "Ramipril 5 mg/gün (hipertansiyon için), Asetilsalisilik Asit (ASA) 100 mg/gün (koruyucu amaçlı)",
+            "aile_oykusu": "Özellik yok.",
+            "tibbi_ozgecmis": "5 yıl önce apandisit ameliyatı dışında özellik yok."
+        },
+        "bulgular": {
+            "fizik_muayene": "Vital Bulgular: TA: 145/90 mmHg, Nabız: 98/dk, Solunum: 18/dk, Ateş: 36.7°C, SpO2: %98. Genel Durum: Bilinci açık, oryante ancak zaman oryantasyonu kısmen bozuk (olayın tam zamanını karıştırıyor), koopere. Glasgow Koma Skalası (GKS): 14 (E4V4M6 - Konfüzyon nedeniyle V4). Kafa-Boyun: Oksipital bölgede yaklaşık 3x4 cm boyutlarında, palpasyonla hassas, hafif şişlik ve abrazyon mevcut. Aktif kanama yok. Kulak arkasında ekimoz (Battle's sign) veya periorbital ekimoz (Raccoon eyes) yok. Pupiller izokorik, ışık refleksi bilateral mevcut ve normal. Boyun hareketleri ağrılı, ancak meninks irritasyon bulgusu yok. Nörolojik Muayene: Kraniyal sinirler intakt. Motor muayenede üst ve alt ekstremitelerde kas gücü 5/5. Duyu muayenesi normal. Derin tendon refleksleri bilateral normoaktif. Babinski refleksi bilateral negatif.",
+            "laboratuvar": "Hemogram: WBC: 9.2 x 10^9/L, Hb: 14.5 g/dL, Hct: 43.2%, Plt: 220 x 10^9/L. Koagülasyon: PT: 14.5 sn (Normal: 11-13.5 sn), INR: 1.2 (Normal: 0.8-1.2), aPTT: 32 sn (Normal: 25-35 sn). Biyokimya: Glukoz: 105 mg/dL, BUN: 18 mg/dL, Kreatinin: 0.9 mg/dL, Na: 140 mEq/L, K: 4.1 mEq/L.",
+            "goruntuleme": "Beyin BT (Kontrastsız): Sağ parietal lobda, kortikal yüzeyde, yaklaşık 2x3 cm boyutlarında, hafif hiperdens görünümde kontüzyon alanı izlenmektedir. Subdural veya epidural hematom saptanmadı. Kafa kemiklerinde fraktür izlenmedi. Orta hat yapılarında şift yok. Bazal sisternler açık."
+        }
+    },
+    {
+        "id": "vaka_016",
+        "gizli_tani": "Hiponatremi (Muhtemel SIADH)",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 72,
+            "meslek": "Emekli Öğretmen",
+            "sikayet": "Kendimi çok yorgun hissediyorum, başım dönüyor, midem bulanıyor ve sanki kafam karışık gibi."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Yaklaşık 5 gündür devam eden halsizlik, yorgunluk, iştahsızlık şikayetleri var. Son 2 gündür baş dönmesi ve bulantı eklenmiş. Eşi, son 24 saattir eşinin eskisi kadar net konuşamadığını, bazen sorulara anlamsız yanıtlar verdiğini ve uykuya meyilinin arttığını belirtiyor. Susuzluk hissi nedeniyle son günlerde normalden daha fazla su içtiğini ifade ediyor (günde 3-4 litre kadar). İdrar çıkışında belirgin bir değişiklik fark etmemiş. Ateş, ishal, kusma öyküsü yok.",
+            "kronik_hastaliklar": "Hipertansiyon, Tip 2 Diyabet (diyetle kontrol altında), Depresyon.",
+            "kullandigi_ilaclar": "Amlodipin 5 mg/gün, Metformin 500 mg 2x1/gün, Sertralin 50 mg/gün.",
+            "aile_oykusu": "Anne ve babada hipertansiyon, annede diyabet öyküsü mevcut.",
+            "tibbi_ozgecmis": "10 yıl önce katarakt ameliyatı. Son 3 yıldır düşme öyküsü yok. Daha önce hastaneye yatış öyküsü yok."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum: Orta derecede letarjik, koopere ancak oryantasyonu zaman ve yere kısmen bozuk. Kişiye tam oryante. Vital bulgular: TA: 110/70 mmHg, Nabız: 88 atım/dk (düzenli), Ateş: 36.6°C, Solunum Sayısı: 16/dk, SpO2: %97 (oda havasında). Baş-Boyun: Mukozalar hafif nemli, juguler venöz dolgunluk normal. Kardiyovasküler: S1, S2 doğal, ek ses, üfürüm yok. Solunum: Her iki akciğer solunum sesleri doğal, ronküs, raller yok. Batın: Batın rahat, defans, rebound yok. Barsak sesleri doğal. Nörolojik: Bilinç bulanık, konfüze. Kas gücü bilateral 4/5. Derin tendon refleksleri normoaktif. Babinski bilateral negatif. Ödem yok.",
+            "laboratuvar": "Hemogram: Hb: 13.2 g/dL, Hct: %39.5, WBC: 7.8 x 10^9/L, Plt: 280 x 10^9/L.\nBiyokimya:\n  Na: 118 mmol/L (Referans: 135-145 mmol/L)\n  K: 3.8 mmol/L (Referans: 3.5-5.0 mmol/L)\n  Cl: 85 mmol/L (Referans: 98-107 mmol/L)\n  BUN: 12 mg/dL (Referans: 7-20 mg/dL)\n  Kreatinin: 0.7 mg/dL (Referans: 0.6-1.2 mg/dL)\n  Glukoz: 105 mg/dL (Referans: 70-100 mg/dL)\n  Serum Ozmolalitesi: 245 mOsm/kg (Referans: 275-295 mOsm/kg)\n  İdrar Na: 55 mmol/L (Referans: >20 mmol/L SIADH'da beklenir)\n  İdrar Ozmolalitesi: 480 mOsm/kg (Referans: >100 mOsm/kg SIADH'da beklenir)\n  TSH: 2.1 mIU/L (Referans: 0.4-4.0 mIU/L)\n  Serbest T4: 1.2 ng/dL (Referans: 0.8-1.8 ng/dL)\n  Kortizol (Sabah): 15 mcg/dL (Referans: 5-25 mcg/dL)",
+            "goruntuleme": "Beyin BT (Kontrastsız): Akut intrakraniyal kanama, kitle veya enfarkt bulgusu saptanmadı. Yaşa uygun serebral atrofi izlendi."
+        }
+    },
+    {
+        "id": "vaka_017",
+        "gizli_tani": "Dismenore",
+        "hasta_kimlik": {
+            "ad_soyad": "Elif Yılmaz",
+            "yas": 22,
+            "meslek": "Üniversite Öğrencisi",
+            "sikayet": "Adet dönemlerimde çok şiddetli karın ağrım oluyor, dayanamıyorum."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, adet kanaması başlamadan birkaç saat önce başlayan ve ilk 1-2 gün boyunca en şiddetli olan, kramp tarzında, alt karın bölgesinde yoğunlaşan ağrılardan şikayetçi. Ağrı bazen beline ve uyluk iç kısımlarına yayılıyor. Ağrıya bulantı, bazen kusma, ishal ve yorgunluk eşlik ediyor. Ağrı nedeniyle okuluna gidemediği ve günlük aktivitelerini yapamadığı dönemler oluyor. Ağrı kesiciler (ibuprofen) genellikle ağrıyı tam olarak geçirmiyor. Menarş yaşından (13 yaş) beri bu ağrıları yaşadığını, zamanla şiddetinin arttığını belirtiyor. Adet döngüsü düzenli (28 günde bir), kanama süresi 5-6 gün.",
+            "kronik_hastaliklar": "Özellik yok",
+            "kullandigi_ilaclar": "İbuprofen 400 mg (adet döneminde günde 2-3 kez, ancak yeterli gelmiyor), Parasetamol 500 mg (nadiren kullanıyor)",
+            "aile_oykusu": "Annesinde de gençliğinde benzer şiddetli adet ağrıları olduğu, doğum yaptıktan sonra azaldığı öğrenildi.",
+            "tibbi_ozgecmis": "Özellik yok. Daha önce herhangi bir operasyon geçirmedi."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum iyi, bilinç açık, koopere. Vital bulgular: TA: 110/70 mmHg, Nabız: 78/dk, Ateş: 36.7 °C, Solunum Sayısı: 16/dk. Batın muayenesinde inspeksiyon, oskültasyon normal. Palpasyonda yaygın hassasiyet yok, ancak suprapubik bölgede hafif hassasiyet mevcut (muayene adet döneminde yapılmıştır). Rebound veya defans yok. Barsak sesleri normal. Pelvik muayene (jinekoloji tarafından yapılmış): Dış genital organlar ve vajen normal. Serviks ve uterus normal büyüklükte, mobil, hassasiyet yok. Adneksiyel kitle veya hassasiyet saptanmadı.",
+            "laboratuvar": "Hemogram: Hb: 13.2 g/dL, Hct: 39.5%, WBC: 7.2 x 10^3/uL, Plt: 280 x 10^3/uL. Biyokimya: Glukoz: 95 mg/dL, BUN: 15 mg/dL, Kreatinin: 0.7 mg/dL, AST: 22 U/L, ALT: 18 U/L. CRP: 0.8 mg/L (Normal <5 mg/L). Beta-hCG: Negatif. Tam İdrar Tahlili: Normal.",
+            "goruntuleme": "Pelvik Ultrasonografi (Transvajinal): Uterus antevert pozisyonda, normal boyut ve konturlarda (8x4x3 cm). Endometrium kalınlığı menstrüel siklus ile uyumlu (8 mm). Myometrium homojen. Her iki over normal boyut ve yapıda, foliküller izlenmekte. Adneksiyel kitle veya serbest sıvı saptanmadı. Doppler incelemede patolojik akım izlenmedi."
+        }
+    },
+    {
+        "id": "vaka_018",
+        "gizli_tani": "Serebrovasküler Olay (SVO)",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 68,
+            "meslek": "Emekli Öğretmen",
+            "sikayet": "Sabah uyandığımda sağ kolumu ve bacağımı hareket ettiremiyorum, yüzüm de kaymış gibi hissediyorum."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, bu sabah uyandığında sağ tarafında güçsüzlük ve uyuşma hissettiğini, sağ kolunu ve bacağını kaldıramadığını, sağ yüzünün de hissizleştiğini ve aynaya baktığında ağzının sağa doğru kaydığını fark ettiğini belirtiyor. Konuşmasında hafif peltekleşme olduğunu, yutkunmada zorlanma yaşamadığını ifade ediyor. Şikayetlerin ani başladığını ve uyandığında fark ettiğini söylüyor. Bilinç kaybı, baş ağrısı, bulantı, kusma veya görme bozukluğu tarif etmiyor. En son dün gece saat 23:00 civarında normal olduğunu hatırlıyor.",
+            "kronik_hastaliklar": "Hipertansiyon, Tip 2 Diyabetes Mellitus, Dislipidemi.",
+            "kullandigi_ilaclar": "Valsartan 80 mg/gün, Metformin 1000 mg 2x1/gün, Atorvastatin 20 mg/gün, Aspirin 100 mg/gün.",
+            "aile_oykusu": "Babası 70 yaşında kalp krizinden vefat etmiş, annesinde hipertansiyon mevcut.",
+            "tibbi_ozgecmis": "2 yıl önce anjiyografi yapılmış, stent takılmamış. 5 yıl önce katarakt ameliyatı geçirmiş."
+        },
+        "bulgular": {
+            "fizik_muayene": "Vital Bulgular: TA: 160/95 mmHg, Nabız: 88/dk (düzenli), Ateş: 36.7°C, Solunum: 16/dk, SpO2: %97 (oda havasında).\nGenel Durum: Bilinç açık, koopere, oryante.\nNörolojik Muayene:\nKranial Sinirler: Sağ nazolabial oluk silik, sağ ağız köşesi aşağıda (santral fasiyal paralizi). Dil orta hatta, uvula orta hatta. Göz hareketleri tam. Pupiller izokorik, ışık refleksi bilateral mevcut.\nMotor Muayene: Sağ üst ekstremitede 0/5 (pleji), sağ alt ekstremitede 0/5 (pleji). Sol ekstremitelerde motor güç 5/5.\nDuyu Muayenesi: Sağ hemipareziye uyan alanda ağrı ve dokunma duyusunda azalma.\nRefleksler: Sağda derin tendon refleksleri hiperaktif (Babinski pozitif), solda normal.\nSerebellar Testler: Sağ taraf güçsüzlüğü nedeniyle değerlendirilemedi.\nKonuşma: Dizartri (peltek konuşma) mevcut.",
+            "laboratuvar": "Hemogram: Hb: 13.5 g/dL, Hct: %40.2, WBC: 8.2 x 10^3/uL, Plt: 220 x 10^3/uL.\nBiyokimya: Glukoz: 185 mg/dL (yüksek), Üre: 45 mg/dL, Kreatinin: 0.9 mg/dL, Na: 140 mEq/L, K: 4.1 mEq/L, Kolesterol Total: 230 mg/dL (yüksek), LDL-K: 155 mg/dL (yüksek), HDL-K: 40 mg/dL (düşük), Trigliserid: 180 mg/dL (yüksek), INR: 1.0, CRP: 3 mg/L.",
+            "goruntuleme": "Beyin BT (Acil): Akut intrakraniyal kanama veya kitle lezyonu saptanmadı. Erken iskemik değişiklikler açısından belirgin bir bulgu izlenmedi. Eski iskemik gliotik odak veya atrofi mevcuttur.\nBeyin MRG (DWI): Sol orta serebral arter (MCA) sulama alanında (özellikle frontal ve parietal loblarda) akut iskemi ile uyumlu difüzyon kısıtlaması (DWI'da parlak, ADC'de koyu) izlenmektedir. MR anjiyografide sol MCA M1 segmentinde trombüs ile uyumlu akım kaybı izlenmektedir."
+        }
+    },
+    {
+        "id": "vaka_019",
+        "gizli_tani": "Kemik Kırığı (Sağ Radius Distal Uç Kırığı)",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 55,
+            "meslek": "Emekli Öğretmen",
+            "sikayet": "Kolum çok ağrıyor, hareket ettiremiyorum."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Dün akşam evde merdivenlerden inerken ayağım kaydı ve sağ kolumun üzerine düştüm. Düştüğüm anda sağ ön kolumda keskin bir ağrı hissettim. Kısa sürede şişlik ve morarma oluştu. Kolumu hiç kaldıramıyorum, en ufak harekette bile dayanılmaz bir ağrı oluyor. Ağrı kesici (parasetamol) aldım ama pek faydası olmadı. Kolumu sabit tutmaya çalışınca ağrı biraz hafifliyor.",
+            "kronik_hastaliklar": "Hipertansiyon (yaklaşık 5 yıldır)",
+            "kullandigi_ilaclar": "Ramipril 5 mg/gün",
+            "aile_oykusu": "Annemde kalp hastalığı vardı. Babamda yaşlılığa bağlı kemik erimesi mevcuttu.",
+            "tibbi_ozgecmis": "10 yıl önce apandisit ameliyatı geçirdim. Başka önemli bir rahatsızlığım veya operasyonum olmadı."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum: Bilinç açık, oryante, koopere. Ağrılı yüz ifadesi mevcut. Vital bulgular: TA: 130/80 mmHg, Nabız: 88/dk, Solunum: 18/dk, Ateş: 36.7 °C. Sağ ön kolda belirgin şişlik, deformite (açılanma) ve ekimoz (morarma) mevcut. Palpasyonla şiddetli hassasiyet ve krepitasyon (çıtırtı sesi) alınıyor. Sağ el bileği ve parmak hareketleri ağrılı ve kısıtlı. Nörovasküler muayene normal (radial nabız alınabiliyor, kapiller geri dolum normal, parmaklarda his kusuru yok). Diğer sistem muayeneleri doğal.",
+            "laboratuvar": "Hemogram: WBC 8.2 x 10^9/L, Hb 13.5 g/dL, Hct 40.5%, Plt 270 x 10^9/L. Biyokimya: Glukoz 95 mg/dL, Üre 25 mg/dL, Kreatinin 0.8 mg/dL, Na 140 mEq/L, K 4.0 mEq/L, Ca 9.2 mg/dL. CRP: 5 mg/L.",
+            "goruntuleme": "Sağ ön kol direkt grafisi (AP ve Lateral): Sağ radius distal uçta, eklem yüzeyine uzanmayan, transvers tipte deplase kırık hattı izlenmektedir. Ulna bütünlüğü korunmuştur. Çevresel yumuşak doku şişliği mevcuttur."
+        }
+    },
+    {
+        "id": "vaka_020",
+        "gizli_tani": "Akut Glomerülonefrit",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 12,
+            "meslek": "Öğrenci",
+            "sikayet": "Sabah uyandığımda yüzüm şişmişti, göz kapaklarım da. Bir de çişim kola rengi gibiydi, çok az yapıyorum."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, yaklaşık 3 gündür özellikle sabahları belirginleşen göz kapaklarında ve yüzde şişlik şikayetiyle başvuruyor. Son 2 gündür idrar renginin koyu kahverengi (kola rengi) olduğunu ve idrar miktarının azaldığını belirtiyor. Genel halsizlik, yorgunluk ve hafif baş ağrısı eşlik ediyor. Yaklaşık 3 hafta önce boğaz ağrısı ve hafif ateş ile seyreden bir enfeksiyon geçirdiğini, ancak doktora gitmediğini ve şikayetlerinin kendiliğinden düzeldiğini ifade ediyor. Bulantı, kusma, karın ağrısı veya yan ağrısı tariflemiyor.",
+            "kronik_hastaliklar": "Özellik yok",
+            "kullandigi_ilaclar": "Özellik yok",
+            "aile_oykusu": "Özellik yok",
+            "tibbi_ozgecmis": "Yaklaşık 3 hafta önce geçirilmiş, kendi kendine düzelen boğaz enfeksiyonu öyküsü mevcut."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum: Bilinci açık, oryante, halsiz görünümde. Vital Bulgular: TA: 145/90 mmHg (yaşına göre yüksek), Nabız: 98 atım/dk, Solunum: 20/dk, Ateş: 36.8°C. Cilt: Periorbital ödem, bilateral pretibial +2 gode bırakan ödem mevcut. KVS: S1, S2 doğal, ek ses/üfürüm yok. Juguler venöz dolgunluk hafif artmış. Solunum Sistemi: Akciğer sesleri bilateral doğal, ronküs/ral yok. GİS: Batın rahat, defans/rebound yok, organomegali yok. Nörolojik: Bilinç açık, pupiller izokorik, ışık refleksi bilateral mevcut. Kranial sinirler intakt.",
+            "laboratuvar": {
+                "Hemogram": {
+                    "WBC": "9.5 x 10^9/L",
+                    "Hb": "10.8 g/dL",
+                    "Hct": "32%",
+                    "Trombosit": "280 x 10^9/L"
+                },
+                "Biyokimya": {
+                    "Üre": "85 mg/dL",
+                    "Kreatinin": "2.1 mg/dL",
+                    "Na": "135 mEq/L",
+                    "K": "5.2 mEq/L",
+                    "Albumin": "3.8 g/dL",
+                    "CRP": "8 mg/L",
+                    "ASO Titresi": "400 IU/mL",
+                    "C3": "60 mg/dL",
+                    "C4": "25 mg/dL"
+                },
+                "İdrar_Analizi": {
+                    "Renk": "Koyu kahverengi",
+                    "Dansite": "1.025",
+                    "pH": "5.5",
+                    "Protein": "+++",
+                    "Kan": "+++",
+                    "Lökosit_Esteraz": "Negatif",
+                    "Nitrit": "Negatif",
+                    "Sediment": "Bol eritrosit (>50/HPF, dismorfik), eritrosit silendirleri (5-10/HPF), 5-10 lökosit/HPF"
+                }
+            },
+            "goruntuleme": "Böbrek Ultrasonografisi: Her iki böbrek normal boyutlarda (sağ 9.5 cm, sol 9.8 cm), parankim ekosu hafif artmış, kortikomedüller ayrım korunmuş. Toplayıcı sistemlerde dilatasyon veya taş izlenmedi."
+        }
+    },
+    {
+        "id": "vaka_021",
+        "gizli_tani": "Tirotoksikoz (Graves Hastalığı)",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 48,
+            "meslek": "Ev Hanımı",
+            "sikayet": "Doktor bey, son birkaç aydır kalbim yerinden çıkacak gibi çarpıyor, çok terliyorum ve sürekli sinirliyim. Yemek yememe rağmen kilo veriyorum."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Yaklaşık 4-5 aydır devam eden şikayetleri var. Çarpıntıları özellikle eforla artıyor, bazen istirahatte de oluyor. Gece uykuya dalmakta zorlanıyor. Eskiden sıcağı severken şimdi en ufak sıcakta bile bunalıyor, sürekli terliyor. Ellerinde titreme fark etmiş. Bağırsak alışkanlıkları değişmiş, daha sık tuvalete çıkıyor (ishal değil, ama dışkılama sayısı artmış). Eskiden 70 kg iken şimdi 62 kg'a düşmüş. Kendini sürekli yorgun ve halsiz hissediyor ama aynı zamanda huzursuz ve gergin.",
+            "kronik_hastaliklar": "Özellik yok",
+            "kullandigi_ilaclar": "Özellik yok",
+            "aile_oykusu": "Annesinde tiroid hastalığı (guatr) öyküsü mevcut.",
+            "tibbi_ozgecmis": "Özellik yok"
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel Durum: Orta-iyi, ajite, anksiyöz görünümde. Vital Bulgular: TA: 140/85 mmHg, Nabız: 110 atım/dk (ritmik), Ateş: 37.2 °C, Solunum Sayısı: 18/dk. Deri: Sıcak, nemli, ince ve kadifemsi. Gözler: Bilateral hafif ekzoftalmi, kapak retraksiyonu mevcut. Boyun: Tiroid bezi bilateral diffüz büyümüş (Grade II), palpasyonla hassasiyet yok, üfürüm duyuluyor. Kardiyovasküler: S1, S2 normal. Taşikardi mevcut. Üfürüm yok. Solunum: Bilateral solunum sesleri doğal, ronküs/ral yok. Batın: Normal, organomegali yok, hassasiyet yok. Ekstremiteler: El ve parmaklarda ince tremor mevcut. Proksimal kas güçsüzlüğü (merdiven çıkmada zorlanma) tarifliyor. Derin tendon refleksleri hiperaktif.",
+            "laboratuvar": "TSH: <0.01 µIU/mL (Normal: 0.27-4.2 µIU/mL)\nSerbest T3 (fT3): 18.5 pg/mL (Normal: 2.0-4.4 pg/mL)\nSerbest T4 (fT4): 4.8 ng/dL (Normal: 0.9-1.7 ng/dL)\nAnti-TPO: 120 IU/mL (Normal: <34 IU/mL)\nTRAb (TSH Reseptör Antikoru): 15 IU/L (Normal: <1.75 IU/L)\nHemogram: Hb: 12.8 g/dL, Lökosit: 7.2 x 10^3/µL, Trombosit: 280 x 10^3/µL (Normal sınırlarda)\nBiyokimya: Glukoz: 115 mg/dL, ALT 45 U/L, AST 38 U/L",
+            "goruntuleme": "Tiroid Ultrasonografisi: Tiroid glandı bilateral diffüz büyümüştür (Sağ lob: 2.5x2.0x5.5 cm, Sol lob: 2.4x1.9x5.3 cm). Parankim heterojen ve hipoekojen görünümdedir. Doppler incelemede gland vaskülaritesi belirgin artmıştır (tiroid fırtınası görünümü). Nodül saptanmamıştır."
+        }
+    },
+    {
+        "id": "vaka_022",
+        "gizli_tani": "Atriyal Fibrilasyon",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 68,
+            "meslek": "Emekli Ev Hanımı",
+            "sikayet": "Kalbim yerinden çıkacak gibi atıyor, nefesim daralıyor."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, yaklaşık 2 saat önce aniden başlayan çarpıntı, nefes darlığı ve hafif baş dönmesi şikayetleriyle acil servise başvurmuş. Şikayetleri dinlenmekle geçmemiş, aksine giderek artmış. Göğüs ağrısı, bayılma veya kol-bacakta uyuşma gibi ek şikayetleri olmadığını belirtiyor. Son günlerde aşırı stres veya fiziksel aktivite öyküsü yok.",
+            "kronik_hastaliklar": "Hipertansiyon (10 yıldır), Tip 2 Diabetes Mellitus (5 yıldır)",
+            "kullandigi_ilaclar": "Ramipril 5 mg/gün, Metformin 1000 mg 2x1/gün, Amlodipin 5 mg/gün",
+            "aile_oykusu": "Annesi kalp hastalığından vefat etmiş. Babasında yüksek tansiyon öyküsü var. Ailede inme veya ritim bozukluğu öyküsü yok.",
+            "tibbi_ozgecmis": "5 yıl önce apandisit ameliyatı geçirmiş. Daha önce kalp rahatsızlığı veya ritim bozukluğu tanısı almamış. Hastaneye yatış öyküsü yok."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum: Orta derecede dispneik, anksiyeteli, bilinci açık, oryante kooperasyon tam. Vital Bulgular: Kan Basıncı: 130/80 mmHg, Nabız: 145 atım/dk (düzensiz düzensiz), Solunum Sayısı: 22/dk, Ateş: 36.7°C, SpO2: %92 (oda havasında). Kardiyovasküler: S1 değişken şiddette, S2 normal. Üfürüm yok. Juguler venöz dolgunluk yok. Periferik nabızlar bilateral palpe ediliyor, düzensiz. Pulmoner: Her iki akciğerde bazallerde ince raller mevcut. Solunum sesleri bilateral eşit. Batın: Normal, organomegali yok. Ekstremiteler: Pretibial ödem yok.",
+            "laboratuvar": "Hemogram: Hb: 13.2 g/dL, Hct: %39.5, WBC: 8.5 x 10^9/L, Plt: 280 x 10^9/L. Biyokimya: Glukoz: 185 mg/dL, Üre: 35 mg/dL, Kreatinin: 1.1 mg/dL, Na: 138 mEq/L, K: 3.9 mEq/L, Mg: 1.9 mg/dL, TSH: 1.8 mIU/L (N: 0.4-4.0), fT4: 1.2 ng/dL (N: 0.8-1.8), Troponin I: <0.01 ng/mL (N: <0.04), BNP: 350 pg/mL (N: <100). Koagülasyon: PT: 12.5 sn, aPTT: 30 sn, INR: 1.0.",
+            "goruntuleme": "EKG: Düzensiz düzensiz R-R aralıkları, P dalgası izlenmiyor, dar QRS kompleksleri, ventriküler hız yaklaşık 145 atım/dk. PA Akciğer Grafisi: Kardiyomegali (KTİ > %50) izlendi. Akciğer parankiminde bilateral hiler dolgunluk ve bazallerde hafif vasküler konjesyon bulguları mevcut. Plevral effüzyon yok. Transtorasik Ekokardiyografi (TEE): Sol atriyum genişlemiş (4.8 cm). Sol ventrikül ejeksiyon fraksiyonu %45 (hafif azalmış sistolik fonksiyon). Hafif mitral yetmezlik. Diğer kapaklar normal. Pulmoner arter basıncı hafif yüksek (35 mmHg)."
+        }
+    },
+    {
+        "id": "vaka_023",
+        "gizli_tani": "Akut Astım Atağı",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 32,
+            "meslek": "Öğretmen",
+            "sikayet": "Nefesim daralıyor, hırıltılı nefes alıyorum ve öksürüyorum."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, yaklaşık 2 saattir giderek artan nefes darlığı, göğüste sıkışma hissi ve hırıltılı solunum şikayetiyle başvuruyor. Özellikle soğuk hava maruziyeti sonrası şikayetlerinin başladığını belirtiyor. Öksürük kuru vasıfta ve atakla birlikte artıyor. Daha önce de benzer ataklar geçirdiğini, genellikle mevsim geçişlerinde veya tozlu ortamlarda tetiklendiğini ifade ediyor. Evde kullandığı nefes açıcı spreyi (salbutamol) birkaç kez kullanmasına rağmen rahatlama olmadığını söylüyor. Gece uykudan uyandıran nefes darlığı da olmuş.",
+            "kronik_hastaliklar": "Astım (10 yıldır tanılı), Alerjik Rinit",
+            "kullandigi_ilaclar": "Salbutamol inhaler (gerektiğinde), Budesonid/Formoterol inhaler (günde 2 kez düzenli kullanması gerekirken son 1 aydır düzensiz kullandığını belirtiyor).",
+            "aile_oykusu": "Annesinde astım ve alerjik rinit öyküsü mevcut.",
+            "tibbi_ozgecmis": "Çocukluk çağında sık bronşit atakları. 5 yıl önce ağır astım atağı nedeniyle acil serviste tedavi görmüş, entübasyon ihtiyacı olmamış."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum: Orta derecede dispneik, ajite. Bilinç açık, oryante.\nVital Bulgular: TA: 130/85 mmHg, Nabız: 110 atım/dk (düzenli), Solunum Sayısı: 28/dk, Ateş: 36.7°C, SpO2: %90 (oda havasında).\nKBB: Doğal.\nKardiyovasküler: S1, S2 doğal, ek ses/üfürüm yok. Taşikardik.\nSolunum Sistemi: İnspeksiyonda yardımcı solunum kasları kullanılıyor, interkostal çekilmeler mevcut. Palpasyonda trakea orta hatta. Perküsyon hipersonor. Oskültasyonda bilateral yaygın ekspiratuvar ronküs ve wheezing, hava girişleri azalmış, ekspiryum uzamış.\nBatın: Normal.\nEkstremiteler: Ödem yok.\nNörolojik: Normal.",
+            "laboratuvar": "Hemogram:\nWBC: 9.8 x 10^3/uL (4.0-10.0)\nHb: 13.2 g/dL (12.0-16.0)\nHct: 39.5 % (36.0-48.0)\nPLT: 280 x 10^3/uL (150-450)\nEozinofil: 0.6 x 10^3/uL (0.0-0.5) (Hafif yüksek)\n\nBiyokimya:\nGlukoz: 105 mg/dL (70-100) (Hafif yüksek)\nKreatinin: 0.8 mg/dL (0.6-1.2)\nNa: 138 mEq/L (135-145)\nK: 4.1 mEq/L (3.5-5.0)\nCRP: 3 mg/L (<5)\n\nArteryel Kan Gazı (oda havasında):\npH: 7.48 (7.35-7.45) (Alkaloz)\nPaCO2: 30 mmHg (35-45) (Hipokapni)\nPaO2: 65 mmHg (80-100) (Hipoksemi)\nHCO3: 24 mEq/L (22-26)\nSaO2: %90",
+            "goruntuleme": "Akciğer Grafisi (PA): Her iki akciğerde havalanma artışı (hiperinflasyon) mevcuttur. Diyaframlar basıktır. Kardiyotorasik oran normal sınırlardadır. Plevral effüzyon veya pnömotoraks düşündürecek bulgu saptanmamıştır. Parankimal infiltrasyon izlenmemiştir."
+        }
+    },
+    {
+        "id": "vaka_024",
+        "gizli_tani": "Perikardit",
+        "hasta_kimlik": {
+            "ad_soyad": "Can Yılmaz",
+            "yas": 38,
+            "meslek": "Mühendis",
+            "sikayet": "Doktor bey, göğsümde çok kötü bir ağrı var, nefes alınca daha da kötüleşiyor."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Ağrı yaklaşık 2 gündür var. Sol göğüs kafesimin ortasında başlıyor, bazen sol omzuma doğru yayılıyor gibi oluyor. Keskin, batıcı bir ağrı. Derin nefes aldığımda, öksürdüğümde veya sırtüstü yattığımda şiddetleniyor. Öne doğru eğildiğimde biraz hafifliyor gibi. Son bir haftadır hafif ateş, halsizlik ve kas ağrılarım vardı, grip olduğumu düşünmüştüm.",
+            "kronik_hastaliklar": "Özellik yok",
+            "kullandigi_ilaclar": "Ağrı için parasetamol almıştım, pek faydası olmadı.",
+            "aile_oykusu": "Özellik yok",
+            "tibbi_ozgecmis": "Yaklaşık 10 gün önce hafif bir üst solunum yolu enfeksiyonu geçirdim, kendiliğinden düzeldi."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum: Orta derecede dispneik, ağrılı yüz ifadesi.\nVital Bulgular: Ateş: 38.2°C, Nabız: 98 atım/dk, Kan Basıncı: 120/75 mmHg, Solunum Sayısı: 20/dk, SpO2: %97 (oda havasında).\nKardiyak: S1, S2 normal. Apeks vuruşu yerinde. Dinlemekle sternum sol kenarında, özellikle hasta öne eğikken duyulan 3 fazlı perikardiyal frotman sesi mevcut.\nPulmoner: Her iki akciğer solunum sesleri doğal, ronküs/ral yok.\nBatın: Normal.\nEkstremiteler: Ödem yok.",
+            "laboratuvar": "Hemogram:\nWBC: 11.5 x 10^9/L (Normal: 4.0-10.0)\nHgb: 14.2 g/dL (Normal: 13.5-17.5)\nPlt: 280 x 10^9/L (Normal: 150-450)\nBiyokimya:\nCRP: 45 mg/L (Normal: <5)\nESR: 35 mm/saat (Normal: <20)\nTroponin I: <0.01 ng/mL (Normal: <0.04)\nCK-MB: 1.2 ng/mL (Normal: <5)\nBUN: 15 mg/dL (Normal: 7-20)\nKreatinin: 0.9 mg/dL (Normal: 0.6-1.2)\nAST: 25 U/L (Normal: 10-40)\nALT: 28 U/L (Normal: 10-40)\nEKG: Yaygın konkav ST elevasyonları (V2-V6, D1, aVL, D2, D3, aVF), PR segment depresyonu (D2, D3, aVF).",
+            "goruntuleme": "Akciğer Grafisi (PA): Kardiyotorasik oran normal sınırlarda. Akciğer parankimi ve vasküler yapılar doğal. Plevral effüzyon veya infiltrasyon izlenmedi.\nTranstorasik Ekokardiyografi: Sol ventrikül sistolik ve diyastolik fonksiyonları normal. Hafif perikardiyal effüzyon (maksimum 5 mm) izlendi. Kapak yapıları normal."
+        }
+    },
+    {
+        "id": "vaka_025",
+        "gizli_tani": "Akut Ürtiker",
+        "hasta_kimlik": {
+            "ad_soyad": "Elif Yılmaz",
+            "yas": 32,
+            "meslek": "Grafik Tasarımcı",
+            "sikayet": "Vücudumda aniden kaşıntılı, kabarıklıklar çıktı, her yerim kaşınıyor."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, yaklaşık 6 saat önce akşam yemeği yedikten kısa bir süre sonra vücudunda başlayan, şiddetli kaşıntılı, kırmızı, kabarık döküntülerden şikayetçi. Döküntülerin önce kollarında başladığını, ardından gövdesine ve bacaklarına yayıldığını belirtiyor. Lezyonların yer değiştirdiğini, bir yerde kaybolup başka bir yerde yeniden çıktığını ifade ediyor. Kaşıntının özellikle geceleri artış gösterdiğini söylüyor. Nefes darlığı, yutma güçlüğü, dudaklarda veya göz kapaklarında şişlik gibi eşlik eden semptomları olmadığını belirtiyor. Akşam yemeğinde daha önce yemediği bir deniz ürününü denediğini hatırlıyor.",
+            "kronik_hastaliklar": "Özellik yok",
+            "kullandigi_ilaclar": "Özellik yok",
+            "aile_oykusu": "Ailede bilinen alerjik hastalık öyküsü yok.",
+            "tibbi_ozgecmis": "Çocukluk çağı aşıları dışında bilinen bir operasyon veya hastane yatışı öyküsü yok."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durumu iyi, bilinci açık, kooperasyon ve oryantasyonu tam. Kaşıntı nedeniyle huzursuz. \nVital Bulgular: TA: 120/80 mmHg, Nabız: 78/dk, Ateş: 36.7°C, Solunum: 16/dk, SpO2: %98 (oda havası).\nDeri: Gövde, ekstremiteler ve yüzde yaygın, eritemli, ödemli, çeşitli boyutlarda (birkaç mm'den birkaç cm'ye kadar), bazıları birleşme eğiliminde, basmakla solan, şiddetli kaşıntılı ürtikeryal lezyonlar izlendi. Lezyonların kaybolup başka yerlerde yeniden ortaya çıktığı gözlendi. Dudaklarda, göz kapaklarında veya dilde angioödem bulgusu yok. Mukozalar doğal. \nKardiyovasküler Sistem: S1, S2 doğal, ek ses veya üfürüm yok. \nSolunum Sistemi: Solunum sesleri doğal, ronküs, raller veya hışıltı yok. \nBatın: Normal, hassasiyet veya defans yok. \nNörolojik Sistem: Olağan.",
+            "laboratuvar": {
+                "Hemogram": {
+                    "WBC": "7.8 x 10^9/L (Normal: 4.0-10.0)",
+                    "RBC": "4.7 x 10^12/L (Normal: 4.5-5.5)",
+                    "Hb": "13.8 g/dL (Normal: 12.0-16.0)",
+                    "Hct": "41% (Normal: 37-47)",
+                    "PLT": "290 x 10^9/L (Normal: 150-400)",
+                    "Nötrofil": "58%",
+                    "Lenfosit": "32%",
+                    "Eozinofil": "6% (Normal: 1-4%)",
+                    "Monosit": "3%",
+                    "Bazofil": "1%"
+                },
+                "Biyokimya": {
+                    "CRP": "2 mg/L (Normal: <5)",
+                    "Glukoz": "95 mg/dL (Normal: 70-100)",
+                    "Kreatinin": "0.8 mg/dL (Normal: 0.6-1.2)",
+                    "ALT": "25 U/L (Normal: <40)",
+                    "AST": "20 U/L (Normal: <40)"
+                }
+            },
+            "goruntuleme": "Endikasyon yok."
+        }
+    },
+    {
+        "id": "vaka_026",
+        "gizli_tani": "Supraventriküler Taşikardi (SVT)",
+        "hasta_kimlik": {
+            "ad_soyad": "Elif Yılmaz",
+            "yas": 32,
+            "meslek": "Grafik Tasarımcı",
+            "sikayet": "Doktor bey, kalbim yerinden çıkacak gibi atıyor, çok hızlı. Nefesim daralıyor sanki."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Bu çarpıntı yaklaşık 2 saattir var. Birden bire başladı, sanki bir düğmeye basılmış gibi. Daha önce de böyle hızlı atışlarım olmuştu ama bu kadar uzun sürmemişti ve bu kadar kötü hissetmemiştim. Başım dönüyor, gözlerim kararıyor gibi oluyor. Göğsümde hafif bir sıkışma da var. Kahve içme alışkanlığım var ama bugün ekstra bir şey yapmadım.",
+            "kronik_hastaliklar": "Özellik yok",
+            "kullandigi_ilaclar": "Yok",
+            "aile_oykusu": "Annemde hipertansiyon var, babamda bilinen bir hastalık yok. Ailede kalp hastalığı öyküsü yok.",
+            "tibbi_ozgecmis": "Çocukken bademcik ameliyatı geçirdi. Başka önemli bir operasyon veya hastane yatışı öyküsü yok."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel Durum: Orta derecede ajite, soluk görünümde, terli. Vital Bulgular: TA: 100/60 mmHg, Nabız: 190 atım/dk (düzenli), SS: 22/dk, Ateş: 36.7 °C, SpO2: %98 (oda havasında). Kardiyovasküler: S1, S2 doğal, ek ses veya üfürüm yok. Juguler venöz dolgunluk yok. Periferik nabızlar bilateral alınıyor. Solunum Sistemi: Her iki akciğer solunum sesleri doğal, ronküs/ral yok. Batın: Normal, hassasiyet yok. Nörolojik: Bilinç açık, oryante, koopere. Pupiller izokorik, ışık refleksi bilateral mevcut. EKG: Dar QRS taşikardisi, düzenli ritim, P dalgaları seçilemiyor, kalp hızı 190/dk.",
+            "laboratuvar": "Hemogram: Hb: 13.2 g/dL, Hct: %39.5, WBC: 7.8 x 10^3/uL, Plt: 280 x 10^3/uL. Biyokimya: Glukoz: 95 mg/dL, Üre: 25 mg/dL, Kreatinin: 0.7 mg/dL, Na: 140 mEq/L, K: 4.1 mEq/L, Cl: 102 mEq/L, Ca: 9.2 mg/dL, Mg: 2.0 mg/dL. Tiroid Fonksiyon Testleri: TSH: 2.1 uIU/mL, sT4: 1.2 ng/dL. Kardiyak Enzimler: Troponin I: <0.01 ng/mL, CK-MB: 10 U/L.",
+            "goruntuleme": "Akciğer Grafisi (PA): Kardiyotorasik oran normal, akciğer parankimi ve vasküler yapılar doğal. Plevral effüzyon veya infiltrasyon izlenmedi."
+        }
+    },
+    {
+        "id": "vaka_027",
+        "gizli_tani": "Bradikardi",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 72,
+            "meslek": "Emekli Ev Hanımı",
+            "sikayet": "Son zamanlarda çok yorgun hissediyorum, bazen başım dönüyor gibi oluyor."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Yaklaşık 2 aydır devam eden, özellikle sabahları ve eforla artan halsizlik ve çabuk yorulma şikayeti var. Bazen anlık göz kararması ve baş dönmesi hissi oluyor, ancak hiç bayılma olmamış. Göğüs ağrısı, nefes darlığı veya çarpıntı tarif etmiyor. Şikayetleri dinlenmekle biraz azalıyor.",
+            "kronik_hastaliklar": "Hipertansiyon (10 yıldır), Tip 2 Diyabetes Mellitus (5 yıldır).",
+            "kullandigi_ilaclar": "Metoprolol 50 mg/gün (sabah), Ramipril 5 mg/gün (sabah), Metformin 1000 mg/gün (sabah-akşam), Atorvastatin 20 mg/gün (akşam).",
+            "aile_oykusu": "Annesinde kalp hastalığı öyküsü var, babası yaşlılığa bağlı vefat etmiş. Kardeşlerinde özellik yok.",
+            "tibbi_ozgecmis": "5 yıl önce katarakt ameliyatı geçirmiş. Başka operasyon veya hastane yatışı yok."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum: Orta iyi, oryante, koopere. Vital bulgular: TA: 120/70 mmHg, Nabız: 48 atım/dk (düzenli), Solunum Sayısı: 16/dk, Ateş: 36.5°C, SpO2: %97 (oda havasında). Kardiyovasküler: S1, S2 doğal, ek ses ve üfürüm yok. Kalp sesleri derinden geliyor. Periferik nabızlar bilateral palpe ediliyor, dolgun. Solunum sistemi: Her iki hemitoraks solunuma eşit katılıyor. Ral, ronküs yok. Batın: Normal, hassasiyet yok. Nörolojik: Bilinç açık, motor ve duyu muayenesi doğal.",
+            "laboratuvar": "Hemogram: Hb: 13.2 g/dL, Hct: %39.5, WBC: 7.8 x 10^3/uL, Plt: 280 x 10^3/uL. Biyokimya: Glukoz: 145 mg/dL, Üre: 30 mg/dL, Kreatinin: 0.9 mg/dL, Na: 140 mEq/L, K: 4.2 mEq/L, TSH: 2.1 mIU/L, fT4: 1.2 ng/dL. EKG: Sinüs bradikardisi, kalp hızı 48 atım/dk. PR aralığı normal, QRS dar, ST-T değişiklikleri yok.",
+            "goruntuleme": "Akciğer Grafisi (PA): Kardiyotorasik oran normal sınırlarda. Akciğer parankimi ve vasküler yapılar doğal. Plevral effüzyon veya infiltrasyon izlenmedi. Ekokardiyografi: Sol ventrikül ejeksiyon fraksiyonu %60. Kapaklarda hafif dejeneratif değişiklikler dışında yapısal anormallik saptanmadı."
+        }
+    },
+    {
+        "id": "vaka_028",
+        "gizli_tani": "Ventriküler Taşikardi",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 62,
+            "meslek": "Emekli Bankacı",
+            "sikayet": "Kalbim çok hızlı çarpıyor, sanki yerinden fırlayacak gibi oluyor, nefesim daralıyor."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Yaklaşık 1 saattir devam eden, aniden başlayan çarpıntı şikayeti var. Çarpıntıya eşlik eden göğüste sıkışma hissi, baş dönmesi ve nefes darlığı mevcut. Daha önce de benzer kısa süreli çarpıntı atakları olmuş ancak bu kadar şiddetli ve uzun süreli olmamış. Dinlenmekle veya pozisyon değiştirmekle geçmiyor. Bilinç kaybı yaşamamış.",
+            "kronik_hastaliklar": "Koroner Arter Hastalığı, Hipertansiyon, Tip 2 Diyabetes Mellitus",
+            "kullandigi_ilaclar": "Aspirin 100 mg/gün, Metoprolol 50 mg/gün, Ramipril 5 mg/gün, Atorvastatin 20 mg/gün, Metformin 1000 mg 2x1/gün",
+            "aile_oykusu": "Babası 60 yaşında kalp krizi geçirmiş. Annesinde hipertansiyon ve diyabet var.",
+            "tibbi_ozgecmis": "15 yıl önce koroner anjiyografi yapılmış, iki damarına stent takılmış. 5 yıl önce de bir kez hastaneye çarpıntı nedeniyle başvurmuş, kısa süreli gözlem sonrası taburcu edilmiş."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel Durum: Orta derecede dispneik, soluk, terli. Bilinci açık, oryante, koopere.\nVital Bulgular: TA: 90/60 mmHg, Nabız: 180 atım/dk (düzenli, dolgun), Solunum Sayısı: 24/dk, Ateş: 36.7 °C, SpO2: %92 (oda havasında).\nKardiyovasküler: S1, S2 duyuluyor. Ek ses veya üfürüm yok. Juguler venöz dolgunluk artmış. Periferik nabızlar zayıf alınıyor.\nSolunum Sistemi: Her iki akciğer bazallerinde ince raller mevcut.\nGİS: Batın rahat, defans, rebound yok.\nNörolojik: Pupiller izokorik, ışık refleksi bilateral mevcut. Motor ve duyu muayenesi doğal.",
+            "laboratuvar": "Hemogram:\nHb: 13.2 g/dL\nHct: %39.8\nWBC: 8.5 x 10^3/uL\nPlt: 280 x 10^3/uL\n\nBiyokimya:\nNa: 138 mEq/L\nK: 3.1 mEq/L (Düşük)\nCl: 102 mEq/L\nCa: 9.0 mg/dL\nMg: 1.6 mg/dL (Düşük)\nBUN: 28 mg/dL (Hafif yüksek)\nKreatinin: 1.3 mg/dL (Hafif yüksek)\nGlukoz: 185 mg/dL (Yüksek)\nTroponin I: 0.08 ng/mL (Normalin üst sınırı)\nCK-MB: 5 ng/mL\nTSH: 2.1 uIU/mL",
+            "goruntuleme": "EKG: Geniş QRS taşikardisi (QRS süresi > 0.12 sn), hız: 180 atım/dk, düzenli. V1'de sağ dal bloğu morfolojisi (RSR') ve sol aks deviasyonu mevcut. AV disosiasyon bulguları (kanon A dalgaları, füzyon/yakalama vuruşları) gözleniyor.\nAkciğer Grafisi (PA): Kardiyomegali (KTİ > %50), bilateral hiler dolgunluk ve bazallerde hafif interstisyel ödem bulguları.\nEkokardiyografi (Eski Rapor): Sol ventrikül ejeksiyon fraksiyonu %35 (düşük), sol ventrikül duvar hareket bozuklukları (anterior ve inferior duvarlarda hipokinezi), hafif mitral yetmezlik."
+        }
+    },
+    {
+        "id": "vaka_029",
+        "gizli_tani": "Ventriküler Fibrilasyon",
+        "hasta_kimlik": {
+            "ad_soyad": "Ahmet Yılmaz",
+            "yas": 68,
+            "meslek": "Emekli",
+            "sikayet": "Eşim birden yere yığıldı, hiç tepki vermiyor ve nefes almıyor gibi."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Eşi, Ahmet Bey'in sabah kahvaltısı sonrası televizyon izlerken aniden bilincini kaybettiğini, yere yığıldığını ve solunumunun durduğunu belirtiyor. Olayın yaklaşık 5 dakika önce meydana geldiğini, öncesinde herhangi bir göğüs ağrısı, çarpıntı veya nefes darlığı şikayeti olmadığını ifade ediyor. Ancak son birkaç gündür genel bir yorgunluk ve halsizlik hissettiğini ekliyor.",
+            "kronik_hastaliklar": "Hipertansiyon (10 yıldır), Tip 2 Diyabetes Mellitus (5 yıldır), Koroner Arter Hastalığı (5 yıl önce MI öyküsü, stent takılmış).",
+            "kullandigi_ilaclar": "Asetilsalisilik Asit 100 mg/gün, Metoprolol 50 mg/gün, Ramipril 5 mg/gün, Atorvastatin 40 mg/gün, Metformin 1000 mg 2x1/gün.",
+            "aile_oykusu": "Babası 60 yaşında kalp krizi geçirmiş.",
+            "tibbi_ozgecmis": "5 yıl önce akut miyokard enfarktüsü sonrası koroner anjiyoplasti ve stent implantasyonu."
+        },
+        "bulgular": {
+            "fizik_muayene": "Bilinç kapalı, yanıtsız. Nabız alınamıyor. Kan basıncı ölçülemiyor. Solunum yok. Vücut ısısı 36.5°C. Genel durum: Koma halinde, siyanoz mevcut. Kardiyak: Kalp sesleri oskültasyonla duyulmuyor. Karotis ve femoral nabızlar palpe edilemiyor. Pulmoner: Akciğer oskültasyonunda solunum sesleri duyulmuyor. Nörolojik: Pupiller bilateral dilate (yaklaşık 6 mm), ışık refleksi alınamıyor. Kornea refleksi yok.",
+            "laboratuvar": "Hemogram: Hb: 14.2 g/dL, Lökosit: 9.8 x 10^9/L, Trombosit: 280 x 10^9/L. Biyokimya: Na: 138 mEq/L, K: 4.1 mEq/L, Ca: 9.2 mg/dL, Mg: 2.0 mg/dL, Glukoz: 185 mg/dL, BUN: 25 mg/dL, Kreatinin: 1.1 mg/dL, Troponin I: 0.8 ng/mL (Normal <0.04 ng/mL), CK-MB: 15 ng/mL (Normal <5 ng/mL). Kan Gazı (Arteriyel): pH: 7.18, pCO2: 55 mmHg, pO2: 60 mmHg, HCO3: 18 mEq/L, SatO2: 85%.",
+            "goruntuleme": "EKG (Acil Servis Monitörü): Geniş, düzensiz, kaotik ventriküler aktivite. P dalgası, QRS kompleksi ve T dalgası ayırt edilemiyor. Hız: Ölçülemiyor (yaklaşık 300-500 atım/dk). Ventriküler Fibrilasyon ile uyumlu. Akciğer Grafisi (Acil Servis): Kardiyomegali (Kardiyotorasik oran >0.5). Pulmoner vasküler konjesyon bulguları mevcut."
+        }
+    },
+    {
+        "id": "vaka_030",
+        "gizli_tani": "Hiperkalemi",
+        "hasta_kimlik": {
+            "ad_soyad": "Ahmet Yılmaz",
+            "yas": 72,
+            "meslek": "Emekli",
+            "sikayet": "Son birkaç gündür kendimi çok halsiz hissediyorum, bacaklarımda derman kalmadı, bir de kalbim garip atıyor gibi."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, halsizliğin yaklaşık 3 gündür giderek arttığını, özellikle bacaklarında belirgin bir güçsüzlük hissettiğini, merdiven çıkmakta ve yürümekte zorlandığını ifade ediyor. Kalbindeki garip atışları 'teklemeler' veya 'düzensiz atışlar' olarak tanımlıyor, ancak göğüs ağrısı, nefes darlığı veya baş dönmesi eşlik etmiyor. Son zamanlarda idrar miktarında azalma fark etmiş. İştahsızlık ve hafif bulantı tarifliyor. Ateş, öksürük, ishal gibi ek şikayetleri yok.",
+            "kronik_hastaliklar": "Hipertansiyon, Kronik Böbrek Hastalığı (Evre 3), Konjestif Kalp Yetmezliği.",
+            "kullandigi_ilaclar": "Ramipril 5 mg/gün, Furosemid 40 mg/gün, Metoprolol 50 mg/gün, Spironolakton 25 mg/gün.",
+            "aile_oykusu": "Anne ve babasında hipertansiyon öyküsü mevcut. Ailede bilinen böbrek hastalığı veya kalp ritim bozukluğu öyküsü yok.",
+            "tibbi_ozgecmis": "5 yıl önce koroner arter hastalığı şüphesiyle anjiyografi yapılmış, anlamlı darlık saptanmamış. 2 yıl önce kalp yetmezliği alevlenmesi nedeniyle hastaneye yatış öyküsü var."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum: Orta derecede halsiz, yorgun görünüyor. Bilinç açık, oryante, koopere. Vital Bulgular: TA: 130/80 mmHg, Nabız: 52/dk (düzensiz), Solunum: 16/dk, Ateş: 36.6°C. Kardiyovasküler: S1, S2 doğal, ek ses veya üfürüm yok. Juguler venöz dolgunluk artmış. Akciğerler: Bilateral solunum sesleri doğal, ronküs veya raller yok. Batın: Barsak sesleri azalmış, palpasyonla hassasiyet yok, defans/rebound yok. Ekstremiteler: Alt ekstremitelerde pretibial ödem yok. Kas gücü alt ekstremitelerde 3/5, üst ekstremitelerde 4/5. Derin tendon refleksleri hipoaktif. Nörolojik muayene diğer açılardan doğal. EKG: Sinüs bradikardisi, sivri ve dar tabanlı T dalgaları, PR aralığında uzama, QRS kompleksinde hafif genişleme izlendi.",
+            "laboratuvar": "Hemogram: Hb: 12.8 g/dL, Hct: 38.5%, WBC: 7.5 x 10^9/L, Plt: 260 x 10^9/L. Biyokimya: Na: 137 mEq/L, K: 6.9 mEq/L, Cl: 101 mEq/L, BUN: 48 mg/dL, Kreatinin: 2.9 mg/dL, eGFR: 24 mL/dk/1.73m^2, Glukoz: 115 mg/dL, Ca: 8.8 mg/dL, P: 4.2 mg/dL, Albumin: 3.8 g/dL. Kan Gazı (Arteriyel): pH: 7.27, pCO2: 39 mmHg, HCO3: 17 mEq/L.",
+            "goruntuleme": "Akciğer Grafisi: Kardiyomegali dışında akut patoloji saptanmadı. Böbrek USG: Her iki böbrek boyutları küçülmüş (sağ 9.0 cm, sol 8.8 cm), parankim ekosu artmış, kortikomedüller ayrım silikleşmiş. Hidronefroz saptanmadı. (Kronik böbrek hastalığı ile uyumlu bulgular)."
+        }
+    },
+    {
+        "id": "vaka_031",
+        "gizli_tani": "Akut Pulmoner Ödem",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 72,
+            "meslek": "Emekli",
+            "sikayet": "Nefesim daralıyor, boğulacak gibi hissediyorum."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, son 2 gündür artan nefes darlığı şikayetiyle başvuruyor. Başlangıçta eforla olan nefes darlığı, son 6 saattir istirahatte de belirginleşmiş. Gece uykudan nefes darlığı ile uyandığını (paroksismal nokturnal dispne) ve yastık sayısını artırdığını (ortopne) belirtiyor. Kuru öksürük ve pembe, köpüklü balgam çıkarma şikayeti de eklenmiş. Göğüs ağrısı tariflemiyor. Bacaklarında şişlik olduğunu fark etmiş.",
+            "kronik_hastaliklar": "Hipertansiyon (15 yıldır), Koroner Arter Hastalığı (5 yıl önce stent takıldı), Tip 2 Diyabetes Mellitus (10 yıldır).",
+            "kullandigi_ilaclar": "Ramipril 5 mg/gün, Metoprolol 50 mg/gün, Furosemid 40 mg/gün, Aspirin 100 mg/gün, Atorvastatin 20 mg/gün, Metformin 1000 mg/gün.",
+            "aile_oykusu": "Annesinde kalp yetmezliği öyküsü mevcut.",
+            "tibbi_ozgecmis": "5 yıl önce miyokard enfarktüsü sonrası koroner anjiyoplasti ve stent uygulaması. 2 yıl önce pnömoni nedeniyle hastaneye yatış."
+        },
+        "bulgular": {
+            "fizik_muayene": "Vital Bulgular: TA: 180/100 mmHg, Nabız: 110 atım/dk (düzensiz), Solunum Sayısı: 32/dk, Ateş: 36.8°C, SpO2: %85 (oda havasında).\nGenel Durum: Bilinç açık, ajite, dispneik görünümde, terli.\nKardiyovasküler: S1, S2 kalp sesleri derinden geliyor, S3 duyuluyor. Juguler venöz dolgunluk mevcut. Periferik ödem (++/+).\nSolunum Sistemi: Her iki akciğer bazallerde ve orta zonlarda yaygın ince raller (krepitasyonlar) ve hırıltılı solunum.\nBatın: Normal.\nEkstremiteler: Alt ekstremitelerde gode bırakan ödem.",
+            "laboratuvar": "Hemogram:\nHb: 12.5 g/dL\nLökosit: 9.8 x 10^9/L\nTrombosit: 250 x 10^9/L\n\nBiyokimya:\nNa: 132 mEq/L\nK: 4.9 mEq/L\nKreatinin: 1.8 mg/dL (Önceki kreatinin 1.1 mg/dL)\nBUN: 45 mg/dL\nAST: 35 U/L\nALT: 30 U/L\nCRP: 8 mg/L\nBNP: 2500 pg/mL\nTroponin I: 0.08 ng/mL\n\nKan Gazı (oda havasında):\npH: 7.28\npCO2: 55 mmHg\npO2: 50 mmHg\nHCO3: 24 mEq/L",
+            "goruntuleme": "Akciğer Grafisi (PA): Kardiyomegali, bilateral hiler dolgunluk, kelebek kanadı görünümü, Kerley B çizgileri, plevral efüzyon (sağda daha belirgin).\nEkokardiyografi (acil): Sol ventrikül ejeksiyon fraksiyonu %30 (önceki %45), global hipokinezi, mitral yetmezlik (orta-ileri), pulmoner hipertansiyon (tahmini pulmoner arter basıncı 60 mmHg)."
+        }
+    },
+    {
+        "id": "vaka_032",
+        "gizli_tani": "Akut Karaciğer Yetmezliği (Parasetamol Doz Aşımı İlişkili)",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 38,
+            "meslek": "Öğretmen",
+            "sikayet": "Son birkaç gündür kendimi çok yorgun hissediyorum, gözlerim ve cildim sapsarı oldu, midem de bulanıyor."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta yaklaşık 1 hafta önce başlayan genel halsizlik ve yorgunluk şikayetleri ile başvuruyor. Son 4-5 gündür mide bulantısı ve zaman zaman kusmalarının olduğunu belirtiyor. Cildinde ve gözlerinde sararma (ikter) 3 gün önce başlamış ve hızla artmış. İdrarının koyu renkli (çay rengi), dışkısının ise açık renkli olduğunu ifade ediyor. Ateş veya titreme şikayeti yok. Son 5 gündür şiddetli baş ağrısı nedeniyle günde 6-8 adet 500mg Parasetamol içeren ağrı kesici kullandığını, önerilen dozun üzerinde aldığını belirtiyor. Ailesi, son gün içinde hastanın biraz unutkan olduğunu ve zaman zaman dalıp gittiğini fark ettiklerini söylüyor. Alkol veya madde kullanımı öyküsü yok. Yakın zamanda seyahat öyküsü veya sarılıklı hasta teması yok.",
+            "kronik_hastaliklar": "Özellik yok",
+            "kullandigi_ilaclar": "Son 5 gündür günde 6-8 adet 500mg Parasetamol içeren ağrı kesici (doz aşımı). Başka düzenli ilaç kullanımı yok.",
+            "aile_oykusu": "Özellik yok",
+            "tibbi_ozgecmis": "Özellik yok"
+        },
+        "bulgular": {
+            "fizik_muayene": "Vital Bulgular: TA: 100/60 mmHg, Nabız: 98/dk, Ateş: 37.2°C, Solunum Sayısı: 18/dk, SpO2: %97 (oda havasında). Genel durum: Orta-iyi genel durum, yorgun ve halsiz görünümde. Bilinç açık, ancak zaman zaman oryantasyon bozukluğu (zamanı karıştırma) mevcut. Konuşması yavaşlamış. Asteriksis (+). Cilt: Yaygın ikterik görünüm. Baş-Boyun: Skleralar ikterik. Kardiyovasküler: S1, S2 doğal, ritmik. Üfürüm yok. Solunum Sistemi: Akciğer sesleri bilateral doğal. Batın: Hafif distandü. Hassasiyet yok. Karaciğer 2 cm kaburga altından palpe ediliyor, yumuşak kıvamda. Dalak palpe edilemiyor. Minimal asit bulgusu (shifting dullness) pozitif. Nörolojik: Bilinç konfüze, zaman zaman uykuya meyil. Asteriksis pozitif. Derin tendon refleksleri normoaktif.",
+            "laboratuvar": {
+                "Hemogram": {
+                    "WBC": "8.5 x 10^9/L",
+                    "Hb": "12.8 g/dL",
+                    "Hct": "%38",
+                    "PLT": "95 x 10^9/L (Düşük)"
+                },
+                "Biyokimya": {
+                    "AST": "2850 U/L (Çok Yüksek)",
+                    "ALT": "3100 U/L (Çok Yüksek)",
+                    "Total Bilirubin": "18.5 mg/dL (Çok Yüksek)",
+                    "Direkt Bilirubin": "12.3 mg/dL (Çok Yüksek)",
+                    "ALP": "120 U/L (Normalin üst sınırı)",
+                    "GGT": "80 U/L (Yüksek)",
+                    "Albumin": "2.5 g/dL (Düşük)",
+                    "Total Protein": "5.8 g/dL (Düşük)",
+                    "Glukoz": "65 mg/dL (Düşük)",
+                    "Kreatinin": "1.8 mg/dL (Yüksek)",
+                    "BUN": "35 mg/dL (Yüksek)",
+                    "Na": "132 mEq/L (Düşük)",
+                    "K": "4.0 mEq/L"
+                },
+                "Koagülasyon": {
+                    "PT": "38 saniye (Çok Uzamış)",
+                    "INR": "3.5 (Çok Uzamış)",
+                    "aPTT": "45 saniye (Uzamış)"
+                },
+                "Diğer": {
+                    "Amonyak": "150 µmol/L (Çok Yüksek)",
+                    "Parasetamol Düzeyi": "Yüksek, toksik düzeyde",
+                    "HBsAg": "Negatif",
+                    "Anti-HCV": "Negatif",
+                    "Anti-HAV IgM": "Negatif"
+                }
+            },
+            "goruntuleme": "Batın Ultrasonografisi: Karaciğer boyutları normal sınırlarda (14 cm), parankim ekosu hafif heterojen. Safra yolları dilate değil. Portal ven çapı ve akımı normal. Minimal perikolesistik sıvı ve perihepatik sıvı izlendi. Dalak normal boyutlarda. Minimal asit saptandı."
+        }
+    },
+    {
+        "id": "vaka_033",
+        "gizli_tani": "Akut Menenjit",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 28,
+            "meslek": "Öğretmen",
+            "sikayet": "Çok şiddetli başım ağrıyor, ateşim var ve boynumu oynatamıyorum."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Yaklaşık 2 gündür devam eden, giderek şiddetlenen, zonklayıcı tarzda baş ağrısı var. Özellikle ışık ve sesten rahatsız oluyor (fotofobi, fonofobi). Ağrıya bulantı ve birkaç kez kusma eşlik etmiş. Ateşi 39°C'ye kadar çıkmış, titremeleri olmuş. Boynunda tutukluk hissediyor, öne eğmekte zorlanıyor. Son bir haftadır hafif bir üst solunum yolu enfeksiyonu geçirmiş, burun akıntısı ve hafif öksürüğü varmış.",
+            "kronik_hastaliklar": "Özellik yok",
+            "kullandigi_ilaclar": "Ateş ve baş ağrısı için parasetamol (500 mg) almış ancak fayda görmemiş.",
+            "aile_oykusu": "Özellik yok",
+            "tibbi_ozgecmis": "Çocukluk çağı aşıları tam. Bilinen bir alerjisi veya geçirilmiş önemli bir operasyonu yok."
+        },
+        "bulgular": {
+            "fizik_muayene": "Vital Bulgular: Ateş: 39.2°C, Nabız: 110 atım/dk, Kan Basıncı: 100/60 mmHg, Solunum Sayısı: 22/dk, SpO2: %97 (oda havasında).\nGenel Durum: Bilinci açık ancak letarjik, koopere ancak oryantasyonu tam değil (zaman ve yere oryantasyonu bozuk). Ağrılı uyarana yanıtı var.\nNörolojik Muayene: Ense sertliği pozitif. Kernig ve Brudzinski belirtileri pozitif. Kranial sinir muayeneleri doğal. Motor ve duyu muayeneleri doğal. Derin tendon refleksleri normoaktif. GKS: 13 (E4V4M5).\nCilt: Peteşiyal döküntü veya purpura yok.\nDiğer sistemler: Kalp, akciğer, batın muayeneleri doğal.",
+            "laboratuvar": "Hemogram:\nWBC: 18.5 x 10^9/L (N: 4.0-10.0)\nNötrofil: %88 (N: 40-75)\nLenfosit: %8 (N: 20-45)\nHb: 13.2 g/dL (N: 12.0-16.0)\nPlt: 250 x 10^9/L (N: 150-450)\n\nBiyokimya:\nCRP: 120 mg/L (N: <5)\nSedimantasyon: 65 mm/saat (N: <20)\nKan Glukozu: 110 mg/dL (N: 70-100)\nDiğer biyokimya değerleri (üre, kreatinin, elektrolitler, karaciğer enzimleri) normal sınırlarda.\n\nLomber Ponksiyon (LP) Sonuçları:\nGörünüm: Bulanık\nBasınç: Yüksek (250 mmH2O)\nHücre Sayısı: 1500/mm^3 (N: <5)\nHücre Tipi: %90 Polimorfonükleer Lökosit (N: <50% lenfosit)\nProtein: 250 mg/dL (N: 15-45)\nGlukoz: 25 mg/dL (N: 40-70)\nBOS/Kan Glukoz Oranı: 0.23 (N: >0.6)\nGram Boyama: Gram-pozitif diplokoklar görüldü.\nKültür: Bekleniyor.",
+            "goruntuleme": "Beyin BT (Kontrastsız): Akut intrakraniyal kanama, kitle lezyonu veya belirgin hidrosefali saptanmadı. Serebral ödem düşündüren hafif sulkal silinme izlendi."
+        }
+    },
+    {
+        "id": "vaka_034",
+        "gizli_tani": "Akut Kolanjit",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 62,
+            "meslek": "Emekli Ev Hanımı",
+            "sikayet": "Birkaç gündür karnımın sağ üst tarafı ağrıyor, ateşim çıkıyor, gözlerim sararmaya başladı."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta 3 gündür devam eden, sağ üst kadranda başlayan ve sırta yayılan, künt vasıfta karın ağrısı şikayetiyle başvuruyor. Ağrıya titreme ile yükselen ateş (39°C'ye kadar), bulantı, kusma eşlik etmiş. Son 2 gündür idrar renginde koyulaşma, dışkı renginde açılma ve gözlerinde sararma fark etmiş. Cildinde kaşıntı da başlamış.",
+            "kronik_hastaliklar": "Hipertansiyon, Tip 2 Diyabetes Mellitus.",
+            "kullandigi_ilaclar": "Ramipril 5 mg/gün, Metformin 1000 mg 2x1/gün.",
+            "aile_oykusu": "Annesinde safra kesesi taşı öyküsü var.",
+            "tibbi_ozgecmis": "Yaklaşık 5 yıl önce safra kesesinde taş olduğu söylenmiş, ancak ameliyat olmamış."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durum: Orta derecede hasta görünümlü, oryante, koopere. Vital Bulgular: Ateş: 38.9°C, Nabız: 105 atım/dk, Kan Basıncı: 100/60 mmHg, Solunum Sayısı: 20/dk, SpO2: %97 (oda havasında). Cilt/Mukoza: Skleralarda ikter (+), ciltte hafif sarılık ve kaşıntıya bağlı ekskoriasyonlar mevcut. Batın: Sağ üst kadranda palpasyonla hassasiyet ve defans mevcut. Murphy bulgusu negatif. Rebound hassasiyet yok. Barsak sesleri normoaktif.",
+            "laboratuvar": {
+                "Hemogram": {
+                    "WBC": "18.5 x 10^3/uL (N: 4.0-10.0)",
+                    "Hb": "12.8 g/dL (N: 12.0-16.0)",
+                    "Plt": "280 x 10^3/uL (N: 150-450)",
+                    "Nötrofil": "%85 (N: 40-70)"
+                },
+                "Biyokimya": {
+                    "AST": "120 U/L (N: 0-40)",
+                    "ALT": "155 U/L (N: 0-40)",
+                    "ALP": "450 U/L (N: 40-150)",
+                    "GGT": "380 U/L (N: 0-50)",
+                    "Total Bilirubin": "6.8 mg/dL (N: 0.2-1.2)",
+                    "Direkt Bilirubin": "5.2 mg/dL (N: 0-0.3)",
+                    "CRP": "180 mg/L (N: 0-5)",
+                    "Amilaz": "80 U/L (N: 25-125)",
+                    "Lipaz": "65 U/L (N: 0-60)",
+                    "Kreatinin": "0.9 mg/dL (N: 0.6-1.2)",
+                    "Glukoz": "180 mg/dL (N: 70-100)"
+                }
+            },
+            "goruntuleme": "Batın Ultrasonografisi: Safra kesesi içerisinde multipl taşlar izlenmektedir. Safra kesesi duvar kalınlığı normal sınırlardadır. Koledok çapı 12 mm olarak ölçülmüştür (N: <7 mm). Koledok distalinde 8 mm boyutunda hiperekojenik yapı (taş ile uyumlu) izlenmektedir. İntrahepatik safra yolları dilate görünümde. Pankreas normal ekoda ve boyutta."
+        }
+    },
+    {
+        "id": "vaka_035",
+        "gizli_tani": "Akut Divertikülit",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 62,
+            "meslek": "Emekli Öğretmen",
+            "sikayet": "Karnımın sol alt tarafı çok ağrıyor, bir de ateşim var sanki."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Hasta, yaklaşık 3 gündür devam eden, karnının sol alt kadranında başlayan ve giderek şiddetlenen künt vasıflı ağrı şikayetiyle başvuruyor. Ağrı, hareketle ve öksürmekle artıyor. Ağrıya eşlik eden bulantı ve iştahsızlık mevcut. Son 2 gündür kabızlık yaşadığını, gaz çıkarmanın zorlaştığını belirtiyor. Ateşini evde ölçtüğünde 38.5°C civarında olduğunu ifade ediyor. İdrar yaparken yanma veya sık idrara çıkma şikayeti yok.",
+            "kronik_hastaliklar": "Hipertansiyon, Tip 2 Diyabetes Mellitus",
+            "kullandigi_ilaclar": "Ramipril 5 mg/gün, Metformin 1000 mg/gün, Asetilsalisilik Asit 100 mg/gün",
+            "aile_oykusu": "Özellik yok",
+            "tibbi_ozgecmis": "10 yıl önce kolonoskopi yapılmış, divertiküloz saptanmış. Daha önce benzer bir atak geçirmemiş."
+        },
+        "bulgular": {
+            "fizik_muayene": "Genel durumu orta, oryante ve koopere. Ateş: 38.8°C, Nabız: 102 atım/dk, Kan Basıncı: 135/85 mmHg, Solunum Sayısı: 18/dk. Batın muayenesinde sol alt kadranda belirgin hassasiyet, defans ve rebound hassasiyet mevcut. Barsak sesleri azalmış. Diğer sistem muayeneleri doğal.",
+            "laboratuvar": {
+                "Hemogram": {
+                    "WBC": "16.5 x 10^3/uL (N: 4.0-10.0)",
+                    "Nötrofil": "%82 (N: 40-75)",
+                    "Hb": "13.2 g/dL (N: 12.0-16.0)",
+                    "Plt": "280 x 10^3/uL (N: 150-450)"
+                },
+                "Biyokimya": {
+                    "CRP": "125 mg/L (N: <5)",
+                    "Sedimantasyon Hızı": "55 mm/saat (N: <20)",
+                    "Kreatinin": "0.9 mg/dL (N: 0.6-1.2)",
+                    "Kan Şekeri": "180 mg/dL (N: 70-100)"
+                },
+                "İdrar Tahlili": {
+                    "Dansite": "1.020",
+                    "Lökosit": "5-8 /hpf",
+                    "Eritrosit": "0-1 /hpf",
+                    "Nitrit": "Negatif",
+                    "Lökosit Esteraz": "Negatif"
+                }
+            },
+            "goruntuleme": "Batın BT (Kontrastlı): Sigmoid kolonda belirgin duvar kalınlaşması (yaklaşık 8 mm), perikolik yağ dokusunda inflamatuar değişiklikler (stranding) ve birkaç adet divertikül izlenmektedir. Perikolik alanda 2x3 cm boyutlarında lokalize sıvı koleksiyonu (apse ile uyumlu) mevcuttur. Serbest hava veya serbest sıvı saptanmamıştır."
+        }
+    },
+    {
+        "id": "vaka_036",
+        "gizli_tani": "Akut Hipotansiyon",
+        "hasta_kimlik": {
+            "ad_soyad": "Ayşe Yılmaz",
+            "yas": 72,
+            "meslek": "Emekli Ev Hanımı",
+            "sikayet": "Doktor bey, başım dönüyor, gözlerim kararıyor, ayakta duramıyorum. Çok halsizim."
+        },
+        "anamnez": {
+            "sikayet_detaylari": "Şikayetleri yaklaşık 2 gündür var. Özellikle ayağa kalktığında veya uzun süre ayakta kaldığında baş dönmesi ve göz kararması artıyormuş. Son 3 gündür ishal ve kusma şikayetleri olmuş, bu yüzden pek bir şey yiyip içememiş. İshal günde 4-5 kez, sulu kıvamda. Kusma ise günde 2-3 kez, yediklerini çıkarmış. Ateşi olmadığını belirtiyor. Göğüs ağrısı, nefes darlığı, çarpıntı gibi ek şikayetleri yok.",
+            "kronik_hastaliklar": "Hipertansiyon (10 yıldır), Tip 2 Diyabetes Mellitus (5 yıldır).",
+            "kullandigi_ilaclar": "Ramipril 5 mg/gün, Metformin 1000 mg 2x1/gün, Amlodipin 5 mg/gün.",
+            "aile_oykusu": "Anne ve babada hipertansiyon öyküsü mevcut.",
+            "tibbi_ozgecmis": "5 yıl önce katarakt ameliyatı dışında özellik yok. Daha önce hiç hastaneye yatış öyküsü yok."
+        },
+        "bulgular": {
+            "fizik_muayene": "Vital Bulgular: Kan Basıncı: 80/50 mmHg (yatarak), 70/40 mmHg (ayakta); Nabız: 110 atım/dk, ritmik; Solunum Sayısı: 20/dk; Vücut Sıcaklığı: 36.5 °C; SpO2: %97 (oda havasında).\nGenel Durum: Orta derecede genel durum bozukluğu, soluk, bilinci açık ancak oryantasyon ve kooperasyonu azalmış, yorgun görünüyor. Mukozalar kuru, cilt turgoru azalmış.\nKardiyovasküler: S1, S2 normal, ek ses ve üfürüm yok. Periferik nabızlar zayıf alınıyor. Kapiller geri dolum zamanı >3 saniye.\nSolunum Sistemi: Her iki akciğer oskültasyonunda ral veya ronküs yok, solunum sesleri doğal.\nGastrointestinal Sistem: Batın rahat, defans, rebound yok. Barsak sesleri azalmış.\nNörolojik Sistem: Pupiller izokorik, ışık refleksi bilateral mevcut. Kranial sinir muayenesi doğal. Motor ve duyu muayenesi kooperasyon kısıtlılığı nedeniyle tam değerlendirilemedi ancak kaba kuvvet kaybı yok.",
+            "laboratuvar": "Hemogram:\nWBC: 9.8 x 10^9/L\nHgb: 13.2 g/dL\nHct: 40%\nPlt: 280 x 10^9/L\n\nBiyokimya:\nGlukoz: 180 mg/dL\nBUN: 45 mg/dL\nKreatinin: 1.8 mg/dL (Bazal kreatinin 0.9 mg/dL)\nNa: 148 mEq/L\nK: 3.2 mEq/L\nCRP: 8 mg/L\nLaktat: 2.5 mmol/L\n\nİdrar Analizi:\nDansite: 1.030\nKeton: Pozitif",
+            "goruntuleme": "Akciğer Grafisi (PA): Kardiyotorasik oran normal, akciğer parankim alanları ve vasküler yapılar doğal. Plevral effüzyon veya infiltrasyon izlenmedi."
+        }
+    }
+]
