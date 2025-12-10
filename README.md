@@ -1,61 +1,88 @@
-🩺 MedSim-AI: Sentetik Tıbbi Vaka Simülasyon Motoru
+<h1 align="center">🩺 MedSim-AI — Sentetik Tıbbi Vaka Simülasyon Motoru</h1>
+<p align="center"><b>Klinik eğitim ve yapay veri üretimi için %100 JSON yapısında, yüksek tutarlıklı vaka üretim motoru.</b></p>
 
-MedSim-AI, tıp eğitimi ve klinik simülasyonlar için yüksek doğrulukta, epidemiyolojik olarak tutarlı ve yapılandırılmış (JSON) sentetik hasta verileri üreten gelişmiş bir yapay zeka hattıdır (pipeline).
-Bu proje, genel amaçlı LLM'lerin (Llama 3 8B vb.) tıbbi terminoloji ve senaryo tutarlılığındaki yetersizliklerini aşmak için Knowledge Distillation (Bilgi Damıtma) yöntemini kullanır.
-🚀 Temel Özellikler
- * Teacher-Student Mimarisi: Google'ın MedGemma-27B (Teacher) modeli kullanılarak, daha küçük ve hızlı modelleri (Student) eğitmek için yüksek kaliteli veri setleri üretilir.
- * Çift Dilli Yapı: Hastanın şikayetlerini "Halk Ağzı" (Örn: "Yüreğim sıkışıyor"), tıbbi notları ise "Akademik Terminoloji" (Örn: "Retrosternal baskı tarzı ağrı") ile ayırt eder.
- * Epidemiolojik Tutarlılık: Tanıya göre yaş ve cinsiyet dağılımını otomatik ayarlar (Örn: Dismenore için genç kadın, KOAH için ileri yaş).
- * Yüksek Performans: vLLM ve A100 GPU optimizasyonu ile dakikalar içinde binlerce vaka üretimi (Batch Inference).
- * Oto-Validasyon (LLM-as-a-Judge): Üretilen vakaların tıbbi doğruluğu, başka bir LLM tarafından istatistiksel olarak puanlanır ve doğrulanır.
-🛠️ Mimari ve Teknoloji Yığını
-Proje üç ana aşamadan oluşur:
- * Veri Üretimi (Data Generation):
-   * Motor: vLLM (PagedAttention ile optimize edilmiş).
-   * Model: google/gemma-2-27b-it (bfloat16).
-   * Format: %100 Valid JSON.
- * Eğitim (Fine-Tuning):
-   * Üretilen sentetik veri seti ile Gemma-2-9B veya 2B modellerinin eğitilmesi (LoRA/Unsloth).
- * Kalite Kontrol (Validation):
-   * Beta model çıktılarının "Tıbbi Uyum", "Vital Tutarlılık" ve "Gerçekçilik" metriklerine göre 1-5 arası puanlanması.
-📂 Veri Yapısı (JSON Şeması)
-Her vaka aşağıdaki standart şemada üretilir:
+## 📌 Proje Tanımı
+MedSim-AI, tıp eğitimi ve yapay zeka araştırmaları için sentetik hasta vakaları üreten güçlü bir pipeline'dır. Büyük öğretici modellerden (MedGemma-27B) elde edilen bilgi, daha küçük student modellere damıtılarak hızlı ve tutarlı vaka üretimi sağlanır. Sistem, halk dili / tıbbi dil ayrımını korur, epidemiolojik uygunluk sağlar ve çıktıları otomatik doğrular.
+
+## 🚀 Temel Özellikler
+| Özellik | Açıklama |
+|---|---|
+| 🧠 Teacher→Student distillation | MedGemma-27B → Gemma-9B/2B LoRA |
+| 🌍 Çift dil desteği | Şikayet halk ağzı, notlar akademik terminoloji |
+| 📊 Epidemiyolojik uyum | Hastalık→yaş→cinsiyet tutarlılığı otomatik |
+| ⚡ vLLM Batch üretim | A100 ile binlerce vaka/dk |
+| 🧪 LLM-as-a-Judge | Her vaka skorlanır (%100 JSON valid) |
+
+## 🛠 Mimari Bileşenler
+**vLLM Veri Motoru → Distillation & Fine-tuning → Medikal Validasyon (LLM-as-Judge)**  
+Teknoloji: vLLM, PagedAttention, Gemma-27B/9B/2B, LoRA–Unsloth, HF Accelerate, JSON Schema doğrulama
+
+
+### Teknoloji Yığını
+
+| Bileşen | Kullanılan Teknoloji |
+|---|---|
+| Veri Üretimi | **vLLM**, PagedAttention |
+| Model | google/gemma-2-27b-it (Teacher), Gemma-9B/2B-LoRA (Student) |
+| Format | %100 Valid JSON Schema |
+| Fine-Tuning | LoRA, Unsloth, HF Accelerate |
+| Validasyon | Tıbbi Uyum – Vital Mantık – Realizm skoru |
+
+---
+
+## 📂 JSON Çıktı Örneği
+
+```json
 {
-    "id": "vaka_042",
-    "gizli_tani": "Akut Pankreatit",
-    "hasta_kimlik": {
-        "yas": 45,
-        "cinsiyet": "Erkek",
-        "sikayet": "Hocam karnımın üst tarafı kuşak gibi ağrıyor, sırtıma vuruyor."
-    },
-    "anamnez": {
-        "sikayet_detaylari": "Epigastrik bölgede ani başlayan, kuşak tarzında yayılan şiddetli ağrı...",
-        "ozgecmis": "Kronik alkol kullanımı, Kolelityazis..."
-    },
-    "bulgular": {
-        "fizik_muayene": "Batın distandü, epigastrik hassasiyet mevcut. Rebound (+).",
-        "laboratuvar": "Amilaz: 1200 U/L (N<100), Lipaz: 850 U/L, CRP: 45 mg/L",
-        "goruntuleme": "Abdominal BT: Pankreasta ödem ve peripankreatik sıvı kolleksiyonu."
-    }
+  "id": "vaka_042",
+  "gizli_tani": "Akut Pankreatit",
+  "hasta_kimlik": {
+    "yas": 45,
+    "cinsiyet": "Erkek",
+    "sikayet": "Hocam karnımın üst tarafı kuşak gibi ağrıyor, sırtıma vuruyor."
+  },
+  "anamnez": {
+    "sikayet_detaylari": "Epigastrik bölgede ani başlayan, kuşak tarzında yayılan şiddetli ağrı...",
+    "ozgecmis": "Kronik alkol kullanımı, Kolelityazis..."
+  },
+  "bulgular": {
+    "fizik_muayene": "Batın distandü, epigastrik hassasiyet mevcut. Rebound (+).",
+    "laboratuvar": "Amilaz: 1200 U/L (N<100), Lipaz: 850 U/L, CRP: 45 mg/L",
+    "goruntuleme": "Abdominal BT: Pankreasta ödem ve peripankreatik sıvı kolleksiyonu."
+  }
 }
+```
+---
 
-⚡ Hızlı Başlangıç
-Gereksinimler
- * Python 3.10+
- * NVIDIA GPU (A100 önerilir, T4 ile MedGemma-9B kullanılabilir)
- * Hugging Face Token
-Kurulum
+## ⚡ Hızlı Başlangıç
+
+### Gereksinimler
+- Python **3.10+**
+- NVIDIA GPU (**A100 önerilir**, T4 ile Gemma-9B kullanılabilir)
+- HuggingFace Token
+
+### Kurulum
+
+```bash
 git clone https://github.com/buraktalhaakin/medsimulator.git
 cd medsimulator
 pip install -r requirements.txt
 
-1. Sentetik Veri Üretimi (vLLM ile)
-A100 GPU üzerinde süper hızlı üretim için:
-python generate_dataset_vllm.py --model "google/gemma-2-27b-it" --count 1000
+```
 
-2. Kalite Kontrol (Validasyon)
-Üretilen verileri veya Beta model sonuçlarını test etmek için:
+### 1) Sentetik Veri Üretimi (vLLM ile)
+A100 GPU üzerinde süper hızlı üretim için:
+
+```bash
+python generate_dataset_vllm.py --model "google/gemma-2-27b-it" --count 1000
+```
+
+### 2) Kalite Kontrol (Validasyon)
+
+Beta model sonuçlarını veya üretilmiş dataset'i doğrulamak için:
+```bash
 python validate_model.py --input "beta_results.json"
+```
 
 Bu script, vakaları tıbbi tutarlılık açısından analiz eder ve kalite_raporu.png grafiğini oluşturur.
 📊 Performans Karşılaştırması
@@ -73,4 +100,8 @@ Bu proje eğitim ve araştırma amaçlıdır. Üretilen tıbbi vakalar yapay zek
  * [ ] Ayırıcı tanı (Differential Diagnosis) modülü
  * [ ] Tedavi planlama ve reçete modülü
  * [ ] Web tabanlı simülasyon arayüzü (Streamlit)
-Developed by Dr. Burak Talha Akın / Gaye Armut
+
+#### Developed by Dr. Burak Talha Akın / Gaye Armut
+
+
+
